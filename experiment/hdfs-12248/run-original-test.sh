@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd /home/sebastiaoamaro/phd/rw/Anduril/experiment/hdfs-12248
+
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 hd_dir="${SCRIPT_DIR}/../../systems/hdfs-12248"
@@ -17,7 +19,12 @@ for i in `find $JAVA_HOME -name "*.jar"`; do jars="$i:$jars"; done
 for i in $hd_dir/hadoop-tools/hadoop-distcp/target/lib/*.jar; do jars="$i:$jars"; done
 testcase="org.apache.hadoop.hdfs.TestRollingUpgrade"
 
-java \
+exec -a "$0" java \
 -Dlog4j.configuration=file:$SCRIPT_DIR/log4j.properties \
 -cp $classes_dir:$testclasses_dir:$jars \
-org.junit.runner.JUnitCore $testcase
+org.junit.runner.JUnitCore $testcase > output.log
+
+#strace -f -o strace.log java \
+#-Dlog4j.configuration=file:$SCRIPT_DIR/log4j.properties \
+#-cp $classes_dir:$testclasses_dir:$jars \
+#org.junit.runner.JUnitCore $testcase

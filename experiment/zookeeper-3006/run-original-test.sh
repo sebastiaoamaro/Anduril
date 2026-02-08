@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+cd /vagrant/rw/Anduril/experiment/zookeeper-3006
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # Do not use Oracle JVM
@@ -21,7 +21,12 @@ testcase="org.apache.zookeeper.test.ZkDatabaseCorruptionTest"
 
 mkdir -p $SCRIPT_DIR/foo/version-2
 
-java \
+exec -a "$0" java \
 -cp $classes_dir:$testclasses_dir:$jars \
 -Dbuild.test.dir=$SCRIPT_DIR/build \
-org.junit.runner.JUnitCore $testcase
+org.junit.runner.JUnitCore $testcase > output.log
+
+#strace -f -o strace.log java \
+#-cp $classes_dir:$testclasses_dir:$jars \
+#-Dbuild.test.dir=$SCRIPT_DIR/build \
+#org.junit.runner.JUnitCore $testcase > output.log

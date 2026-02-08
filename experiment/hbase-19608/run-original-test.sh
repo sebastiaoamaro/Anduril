@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+cd /vagrant/rw/Anduril/experiment/hbase-19608
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 case_name=hbase-19608
@@ -23,7 +23,13 @@ for i in `find $JAVA_HOME -name "*.jar"`; do jars="$i:$jars"; done
 
 testcase="org.apache.hadoop.hbase.client.TestGetProcedureResult"
 
-java \
+#strace -f -o strace.log java \
+#-Dlog4j.configuration=file:$SCRIPT_DIR/log4j.properties \
+#-cp $classes_dir:$testclasses_dir:$jars \
+#org.junit.runner.JUnitCore $testcase > output.log
+
+
+exec -a "$0" java \
 -Dlog4j.configuration=file:$SCRIPT_DIR/log4j.properties \
 -cp $classes_dir:$testclasses_dir:$jars \
-org.junit.runner.JUnitCore $testcase
+org.junit.runner.JUnitCore $testcase &> output.log

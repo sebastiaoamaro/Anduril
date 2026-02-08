@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mvn clean
-mvn install -DskipTests
+mvn install -DskipTests -Pdist

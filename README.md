@@ -140,6 +140,11 @@ cd systems
 ./compile-all.sh
 ```
 
+Note that there will be compilation errors in a few systems/versions, due to broken dependencies.
+It is expected and our experiments can be run successfully, because our tests/workloads do not depend on
+the code that fails to compile. For example, in a few HBase systems/versions with compilation errors,
+as long as `hbase-server` and `hbase-common` goals succeed during maven build process, then our workload can be run.
+
 ## 2.2 Find important logs
 
 In the second step, the goal is to filter out important log entries in the failure log. 
@@ -192,14 +197,14 @@ For the state-of-the-art baselines,
 Static analysis of Fate
 
 ```bash
-  fate= tool/bin/analyze-${case_name}.sh
+  fate=tool/bin/analyze-${case_name}.sh
   tool/move/${case_name}.sh
 ```
 
 Static analysis of Crashtuner
 
 ```bash
-  crashtuner= tool/bin/analyze-${case_name}.sh
+  crashtuner=tool/bin/analyze-${case_name}.sh
   tool/move/${case_name}.sh
 ```
 
@@ -207,7 +212,6 @@ Static analysis of Crashtuner
 
 ### 2.4.1 Preparation of the experiment
 All the evaluation should happen in `evaluation/case_name` directory. 
-For 
 ```bash
   cd evaluation/case_name
   cp $DIR_WHERE_YOU_PERFORM_STATIC_ANALYSIS/tree.json .
@@ -225,6 +229,9 @@ Crashtuner:
 ```bash
   cp crashtuner-trial.sh single-trial.sh
 ```
+Note that a few cases (e.g., HDFS-4233, HDFS-13039, CASSANDRA-6415) are not reproduced by running unit/integration test in this repo.
+Instead, it starts the whole cluster and runs the workload, although it is equivalent to a test.
+For such cases, `./reproduce.sh` in the `case_name/cluster` folder will be used to execute the workload.
 
 ### 2.4.2 Config of the experiment
 The configuration file is `config.properties`. 

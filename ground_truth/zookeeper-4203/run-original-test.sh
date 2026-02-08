@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+/vagrant/auxiliary_scripts/change_java.sh 8
 
+cd /vagrant/rw/Anduril/ground_truth/zookeeper-4203
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 zk_dir="${SCRIPT_DIR}/../../systems/zookeeper-4203"
@@ -21,6 +23,9 @@ for i in 1 2 3; do
   rm -rf /tmp/zookeeper$i
 done
 
-java \
+exec -a "$0" java \
 -cp $btm_dir:$classes_dir:$testclasses_dir:$jars \
-org.junit.runner.JUnitCore $testcase
+org.junit.runner.JUnitCore $testcase > output.log
+#java \
+#-cp $btm_dir:$classes_dir:$testclasses_dir:$jars \
+#org.junit.runner.JUnitCore $testcase

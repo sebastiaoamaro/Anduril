@@ -1,33 +1,33 @@
-2022-07-05 02:56:05,035 - INFO  [main:Log4jControllerRegistration$@31] - Registered kafka:type=kafka.Log4jController MBean
-2022-07-05 02:56:05,082 - INFO  [main:Environment@109] - Server environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
-2022-07-05 02:56:05,082 - INFO  [main:Environment@109] - Server environment:host.name=razor15
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.version=1.8.0_275
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.vendor=Private Build
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.class.path=/home/tonypan/flaky-reproduction/experiment/kafka-12508/junit-platform-console-standalone-1.7.0.jar
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.io.tmpdir=/tmp
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:java.compiler=<NA>
-2022-07-05 02:56:05,083 - INFO  [main:Environment@109] - Server environment:os.name=Linux
-2022-07-05 02:56:05,084 - INFO  [main:Environment@109] - Server environment:os.arch=amd64
-2022-07-05 02:56:05,084 - INFO  [main:Environment@109] - Server environment:os.version=4.15.0-128-generic
-2022-07-05 02:56:05,084 - INFO  [main:Environment@109] - Server environment:user.name=tonypan
-2022-07-05 02:56:05,084 - INFO  [main:Environment@109] - Server environment:user.home=/home/tonypan
-2022-07-05 02:56:05,084 - INFO  [main:Environment@109] - Server environment:user.dir=/home/tonypan/flaky-reproduction/experiment/kafka-12508
-2022-07-05 02:56:05,085 - INFO  [main:Environment@109] - Server environment:os.memory.free=401MB
-2022-07-05 02:56:05,085 - INFO  [main:Environment@109] - Server environment:os.memory.max=7051MB
-2022-07-05 02:56:05,085 - INFO  [main:Environment@109] - Server environment:os.memory.total=475MB
-2022-07-05 02:56:05,090 - INFO  [main:FileTxnSnapLog@115] - zookeeper.snapshot.trust.empty : false
-2022-07-05 02:56:05,114 - INFO  [main:ZKDatabase@117] - zookeeper.snapshotSizeFactor = 0.33
-2022-07-05 02:56:05,121 - INFO  [main:ZooKeeperServer@953] - minSessionTimeout set to 1600
-2022-07-05 02:56:05,121 - INFO  [main:ZooKeeperServer@962] - maxSessionTimeout set to 16000
-2022-07-05 02:56:05,122 - INFO  [main:ZooKeeperServer@181] - Created server with tickTime 800 minSessionTimeout 1600 maxSessionTimeout 16000 datadir /tmp/kafka-1910287087040448163/version-2 snapdir /tmp/kafka-2594531190512160092/version-2
-2022-07-05 02:56:05,134 - INFO  [main:NIOServerCnxnFactory@673] - Configuring NIO connection handler with 10s sessionless connection timeout, 3 selector thread(s), 40 worker threads, and 64 kB direct buffers.
-2022-07-05 02:56:05,140 - INFO  [main:NIOServerCnxnFactory@686] - binding to port /127.0.0.1:0
-2022-07-05 02:56:05,149 - INFO  [main:FileTxnSnapLog@404] - Snapshotting: 0x0 to /tmp/kafka-2594531190512160092/version-2/snapshot.0
-2022-07-05 02:56:05,153 - INFO  [main:FileTxnSnapLog@404] - Snapshotting: 0x0 to /tmp/kafka-2594531190512160092/version-2/snapshot.0
-2022-07-05 02:56:05,178 - INFO  [ProcessThread(sid:0 cport:39129)::PrepRequestProcessor@132] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
-2022-07-05 02:56:05,504 - INFO  [main:AbstractConfig@372] - KafkaConfig values: 
+2025-03-26 17:31:09,001 - INFO  [main:Log4jControllerRegistration$@31] - Registered kafka:type=kafka.Log4jController MBean
+2025-03-26 17:31:09,040 - INFO  [main:Environment@109] - Server environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2025-03-26 17:31:09,040 - INFO  [main:Environment@109] - Server environment:host.name=146-193-190-213.edr.inesc.pt
+2025-03-26 17:31:09,040 - INFO  [main:Environment@109] - Server environment:java.version=1.8.0_442
+2025-03-26 17:31:09,040 - INFO  [main:Environment@109] - Server environment:java.vendor=Private Build
+2025-03-26 17:31:09,040 - INFO  [main:Environment@109] - Server environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2025-03-26 17:31:09,040 - INFO  [main:Environment@109] - Server environment:java.class.path=/home/sebastiaoamaro/phd/torefidevel/rw/Anduril/experiment/kafka-12508/junit-platform-console-standalone-1.7.0.jar
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:java.io.tmpdir=/tmp
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:java.compiler=<NA>
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:os.name=Linux
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:os.arch=amd64
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:os.version=6.11.0-061100-generic
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:user.name=root
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:user.home=/root
+2025-03-26 17:31:09,041 - INFO  [main:Environment@109] - Server environment:user.dir=/home/sebastiaoamaro/phd/torefidevel/rw/Anduril/experiment/kafka-12508
+2025-03-26 17:31:09,042 - INFO  [main:Environment@109] - Server environment:os.memory.free=357MB
+2025-03-26 17:31:09,042 - INFO  [main:Environment@109] - Server environment:os.memory.max=7060MB
+2025-03-26 17:31:09,042 - INFO  [main:Environment@109] - Server environment:os.memory.total=477MB
+2025-03-26 17:31:09,045 - INFO  [main:FileTxnSnapLog@115] - zookeeper.snapshot.trust.empty : false
+2025-03-26 17:31:09,063 - INFO  [main:ZKDatabase@117] - zookeeper.snapshotSizeFactor = 0.33
+2025-03-26 17:31:09,066 - INFO  [main:ZooKeeperServer@953] - minSessionTimeout set to 1600
+2025-03-26 17:31:09,066 - INFO  [main:ZooKeeperServer@962] - maxSessionTimeout set to 16000
+2025-03-26 17:31:09,067 - INFO  [main:ZooKeeperServer@181] - Created server with tickTime 800 minSessionTimeout 1600 maxSessionTimeout 16000 datadir /tmp/kafka-4319352492081198813/version-2 snapdir /tmp/kafka-5761919377854095785/version-2
+2025-03-26 17:31:09,072 - INFO  [main:NIOServerCnxnFactory@673] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2025-03-26 17:31:09,075 - INFO  [main:NIOServerCnxnFactory@686] - binding to port /127.0.0.1:0
+2025-03-26 17:31:09,080 - INFO  [main:FileTxnSnapLog@404] - Snapshotting: 0x0 to /tmp/kafka-5761919377854095785/version-2/snapshot.0
+2025-03-26 17:31:09,082 - INFO  [main:FileTxnSnapLog@404] - Snapshotting: 0x0 to /tmp/kafka-5761919377854095785/version-2/snapshot.0
+2025-03-26 17:31:09,091 - INFO  [ProcessThread(sid:0 cport:35993)::PrepRequestProcessor@132] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
+2025-03-26 17:31:09,255 - INFO  [main:AbstractConfig@372] - KafkaConfig values: 
 	advertised.host.name = null
 	advertised.listeners = null
 	advertised.port = null
@@ -100,7 +100,7 @@
 	log.cleaner.min.compaction.lag.ms = 0
 	log.cleaner.threads = 1
 	log.cleanup.policy = [delete]
-	log.dir = /tmp/junit908791874146947038/junit2077944468751917615
+	log.dir = /tmp/junit5868215782785718894/junit6619212803612852418
 	log.dirs = null
 	log.flush.interval.messages = 9223372036854775807
 	log.flush.interval.ms = null
@@ -241,7 +241,7 @@
 	transactional.id.expiration.ms = 604800000
 	unclean.leader.election.enable = false
 	zookeeper.clientCnxnSocket = null
-	zookeeper.connect = 127.0.0.1:39129
+	zookeeper.connect = 127.0.0.1:35993
 	zookeeper.connection.timeout.ms = null
 	zookeeper.max.in.flight.requests = 10
 	zookeeper.session.timeout.ms = 10000
@@ -261,43 +261,43 @@
 	zookeeper.ssl.truststore.type = null
 	zookeeper.sync.time.ms = 2000
 
-2022-07-05 02:56:05,524 - INFO  [main:X509Util@79] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
-2022-07-05 02:56:05,613 - INFO  [main:Logging@66] - starting
-2022-07-05 02:56:05,613 - INFO  [main:Logging@66] - Connecting to zookeeper on 127.0.0.1:39129
-2022-07-05 02:56:05,635 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Initializing a new session to 127.0.0.1:39129.
-2022-07-05 02:56:05,641 - INFO  [main:Environment@109] - Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
-2022-07-05 02:56:05,641 - INFO  [main:Environment@109] - Client environment:host.name=razor15
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.version=1.8.0_275
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.vendor=Private Build
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.class.path=/home/tonypan/flaky-reproduction/experiment/kafka-12508/junit-platform-console-standalone-1.7.0.jar
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.io.tmpdir=/tmp
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:java.compiler=<NA>
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:os.name=Linux
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:os.arch=amd64
-2022-07-05 02:56:05,642 - INFO  [main:Environment@109] - Client environment:os.version=4.15.0-128-generic
-2022-07-05 02:56:05,643 - INFO  [main:Environment@109] - Client environment:user.name=tonypan
-2022-07-05 02:56:05,643 - INFO  [main:Environment@109] - Client environment:user.home=/home/tonypan
-2022-07-05 02:56:05,643 - INFO  [main:Environment@109] - Client environment:user.dir=/home/tonypan/flaky-reproduction/experiment/kafka-12508
-2022-07-05 02:56:05,643 - INFO  [main:Environment@109] - Client environment:os.memory.free=336MB
-2022-07-05 02:56:05,643 - INFO  [main:Environment@109] - Client environment:os.memory.max=7051MB
-2022-07-05 02:56:05,643 - INFO  [main:Environment@109] - Client environment:os.memory.total=441MB
-2022-07-05 02:56:05,648 - INFO  [main:ZooKeeper@868] - Initiating client connection, connectString=127.0.0.1:39129 sessionTimeout=10000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@31add175
-2022-07-05 02:56:05,652 - INFO  [main:ClientCnxnSocket@237] - jute.maxbuffer value is 4194304 Bytes
-2022-07-05 02:56:05,659 - INFO  [main:ClientCnxn@1653] - zookeeper.request.timeout value is 0. feature enabled=
-2022-07-05 02:56:05,660 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Waiting until connected.
-2022-07-05 02:56:05,666 - INFO  [main-SendThread(127.0.0.1:39129):ClientCnxn$SendThread@1112] - Opening socket connection to server localhost/127.0.0.1:39129. Will not attempt to authenticate using SASL (unknown error)
-2022-07-05 02:56:05,668 - INFO  [main-SendThread(127.0.0.1:39129):ClientCnxn$SendThread@959] - Socket connection established, initiating session, client: /127.0.0.1:33416, server: localhost/127.0.0.1:39129
-2022-07-05 02:56:05,678 - INFO  [SyncThread:0:FileTxnLog@218] - Creating new log file: log.1
-2022-07-05 02:56:05,688 - INFO  [main-SendThread(127.0.0.1:39129):ClientCnxn$SendThread@1394] - Session establishment complete on server localhost/127.0.0.1:39129, sessionid = 0x100a46b12920000, negotiated timeout = 10000
-2022-07-05 02:56:05,693 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Connected.
-2022-07-05 02:56:05,812 - INFO  [feature-zk-node-event-process-thread:Logging@66] - [feature-zk-node-event-process-thread]: Starting
-2022-07-05 02:56:05,824 - INFO  [feature-zk-node-event-process-thread:Logging@66] - Feature ZK node at path: /feature does not exist
-2022-07-05 02:56:05,825 - INFO  [feature-zk-node-event-process-thread:Logging@66] - Cleared cache
-2022-07-05 02:56:06,104 - INFO  [main:Logging@66] - Cluster ID = KmvgGXfIS1CzvbpBFQ5b4A
-2022-07-05 02:56:06,109 - WARN  [main:Logging@70] - No meta.properties file under dir /tmp/junit908791874146947038/junit2077944468751917615/meta.properties
-2022-07-05 02:56:06,174 - INFO  [main:AbstractConfig@372] - KafkaConfig values: 
+2025-03-26 17:31:09,264 - INFO  [main:X509Util@79] - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2025-03-26 17:31:09,308 - INFO  [main:Logging@66] - starting
+2025-03-26 17:31:09,308 - INFO  [main:Logging@66] - Connecting to zookeeper on 127.0.0.1:35993
+2025-03-26 17:31:09,319 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Initializing a new session to 127.0.0.1:35993.
+2025-03-26 17:31:09,323 - INFO  [main:Environment@109] - Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT
+2025-03-26 17:31:09,323 - INFO  [main:Environment@109] - Client environment:host.name=146-193-190-213.edr.inesc.pt
+2025-03-26 17:31:09,323 - INFO  [main:Environment@109] - Client environment:java.version=1.8.0_442
+2025-03-26 17:31:09,323 - INFO  [main:Environment@109] - Client environment:java.vendor=Private Build
+2025-03-26 17:31:09,323 - INFO  [main:Environment@109] - Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:java.class.path=/home/sebastiaoamaro/phd/torefidevel/rw/Anduril/experiment/kafka-12508/junit-platform-console-standalone-1.7.0.jar
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:java.io.tmpdir=/tmp
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:java.compiler=<NA>
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:os.name=Linux
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:os.arch=amd64
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:os.version=6.11.0-061100-generic
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:user.name=root
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:user.home=/root
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:user.dir=/home/sebastiaoamaro/phd/torefidevel/rw/Anduril/experiment/kafka-12508
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:os.memory.free=398MB
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:os.memory.max=7060MB
+2025-03-26 17:31:09,324 - INFO  [main:Environment@109] - Client environment:os.memory.total=465MB
+2025-03-26 17:31:09,326 - INFO  [main:ZooKeeper@868] - Initiating client connection, connectString=127.0.0.1:35993 sessionTimeout=10000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@74a6f9c1
+2025-03-26 17:31:09,329 - INFO  [main:ClientCnxnSocket@237] - jute.maxbuffer value is 4194304 Bytes
+2025-03-26 17:31:09,333 - INFO  [main:ClientCnxn@1653] - zookeeper.request.timeout value is 0. feature enabled=
+2025-03-26 17:31:09,334 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Waiting until connected.
+2025-03-26 17:31:09,338 - INFO  [main-SendThread(127.0.0.1:35993):ClientCnxn$SendThread@1112] - Opening socket connection to server localhost/127.0.0.1:35993. Will not attempt to authenticate using SASL (unknown error)
+2025-03-26 17:31:09,340 - INFO  [main-SendThread(127.0.0.1:35993):ClientCnxn$SendThread@959] - Socket connection established, initiating session, client: /127.0.0.1:53224, server: localhost/127.0.0.1:35993
+2025-03-26 17:31:09,347 - INFO  [SyncThread:0:FileTxnLog@218] - Creating new log file: log.1
+2025-03-26 17:31:09,354 - INFO  [main-SendThread(127.0.0.1:35993):ClientCnxn$SendThread@1394] - Session establishment complete on server localhost/127.0.0.1:35993, sessionid = 0x10002a599f60000, negotiated timeout = 10000
+2025-03-26 17:31:09,356 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Connected.
+2025-03-26 17:31:09,409 - INFO  [feature-zk-node-event-process-thread:Logging@66] - [feature-zk-node-event-process-thread]: Starting
+2025-03-26 17:31:09,417 - INFO  [feature-zk-node-event-process-thread:Logging@66] - Feature ZK node at path: /feature does not exist
+2025-03-26 17:31:09,417 - INFO  [feature-zk-node-event-process-thread:Logging@66] - Cleared cache
+2025-03-26 17:31:09,560 - INFO  [main:Logging@66] - Cluster ID = tRcczqLyRmWjkDL5ldkR8g
+2025-03-26 17:31:09,562 - WARN  [main:Logging@70] - No meta.properties file under dir /tmp/junit5868215782785718894/junit6619212803612852418/meta.properties
+2025-03-26 17:31:09,591 - INFO  [main:AbstractConfig@372] - KafkaConfig values: 
 	advertised.host.name = null
 	advertised.listeners = null
 	advertised.port = null
@@ -370,7 +370,7 @@
 	log.cleaner.min.compaction.lag.ms = 0
 	log.cleaner.threads = 1
 	log.cleanup.policy = [delete]
-	log.dir = /tmp/junit908791874146947038/junit2077944468751917615
+	log.dir = /tmp/junit5868215782785718894/junit6619212803612852418
 	log.dirs = null
 	log.flush.interval.messages = 9223372036854775807
 	log.flush.interval.ms = null
@@ -511,7 +511,7 @@
 	transactional.id.expiration.ms = 604800000
 	unclean.leader.election.enable = false
 	zookeeper.clientCnxnSocket = null
-	zookeeper.connect = 127.0.0.1:39129
+	zookeeper.connect = 127.0.0.1:35993
 	zookeeper.connection.timeout.ms = null
 	zookeeper.max.in.flight.requests = 10
 	zookeeper.session.timeout.ms = 10000
@@ -531,7 +531,7 @@
 	zookeeper.ssl.truststore.type = null
 	zookeeper.sync.time.ms = 2000
 
-2022-07-05 02:56:06,186 - INFO  [main:AbstractConfig@372] - KafkaConfig values: 
+2025-03-26 17:31:09,597 - INFO  [main:AbstractConfig@372] - KafkaConfig values: 
 	advertised.host.name = null
 	advertised.listeners = null
 	advertised.port = null
@@ -604,7 +604,7 @@
 	log.cleaner.min.compaction.lag.ms = 0
 	log.cleaner.threads = 1
 	log.cleanup.policy = [delete]
-	log.dir = /tmp/junit908791874146947038/junit2077944468751917615
+	log.dir = /tmp/junit5868215782785718894/junit6619212803612852418
 	log.dirs = null
 	log.flush.interval.messages = 9223372036854775807
 	log.flush.interval.ms = null
@@ -745,7 +745,7 @@
 	transactional.id.expiration.ms = 604800000
 	unclean.leader.election.enable = false
 	zookeeper.clientCnxnSocket = null
-	zookeeper.connect = 127.0.0.1:39129
+	zookeeper.connect = 127.0.0.1:35993
 	zookeeper.connection.timeout.ms = null
 	zookeeper.max.in.flight.requests = 10
 	zookeeper.session.timeout.ms = 10000
@@ -765,52 +765,52 @@
 	zookeeper.ssl.truststore.type = null
 	zookeeper.sync.time.ms = 2000
 
-2022-07-05 02:56:06,220 - INFO  [ThrottledChannelReaper-Fetch:Logging@66] - [ThrottledChannelReaper-Fetch]: Starting
-2022-07-05 02:56:06,221 - INFO  [ThrottledChannelReaper-Produce:Logging@66] - [ThrottledChannelReaper-Produce]: Starting
-2022-07-05 02:56:06,222 - INFO  [ThrottledChannelReaper-Request:Logging@66] - [ThrottledChannelReaper-Request]: Starting
-2022-07-05 02:56:06,223 - INFO  [ThrottledChannelReaper-ControllerMutation:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Starting
-2022-07-05 02:56:06,255 - INFO  [main:Logging@66] - Loading logs from log dirs ArraySeq(/tmp/junit908791874146947038/junit2077944468751917615)
-2022-07-05 02:56:06,259 - INFO  [main:Logging@66] - Attempting recovery for all logs in /tmp/junit908791874146947038/junit2077944468751917615 since no clean shutdown file was found
-2022-07-05 02:56:06,264 - INFO  [main:Logging@66] - Loaded 0 logs in 0ms.
-2022-07-05 02:56:06,264 - INFO  [main:Logging@66] - Starting log cleanup with a period of 300000 ms.
-2022-07-05 02:56:06,267 - INFO  [main:Logging@66] - Starting log flusher with a default period of 9223372036854775807 ms.
-2022-07-05 02:56:06,665 - INFO  [main:Logging@66] - Updated connection-accept-rate max connection creation rate to 2147483647
-2022-07-05 02:56:06,668 - INFO  [main:Logging@66] - Awaiting socket connections on localhost:41521.
-2022-07-05 02:56:06,706 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT)
-2022-07-05 02:56:06,735 - INFO  [BrokerToControllerChannelManager broker=0 name=alterIsr:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Starting
-2022-07-05 02:56:06,758 - INFO  [ExpirationReaper-0-Produce:Logging@66] - [ExpirationReaper-0-Produce]: Starting
-2022-07-05 02:56:06,759 - INFO  [ExpirationReaper-0-Fetch:Logging@66] - [ExpirationReaper-0-Fetch]: Starting
-2022-07-05 02:56:06,759 - INFO  [ExpirationReaper-0-DeleteRecords:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Starting
-2022-07-05 02:56:06,760 - INFO  [ExpirationReaper-0-ElectLeader:Logging@66] - [ExpirationReaper-0-ElectLeader]: Starting
-2022-07-05 02:56:06,773 - INFO  [LogDirFailureHandler:Logging@66] - [LogDirFailureHandler]: Starting
-2022-07-05 02:56:06,815 - INFO  [main:Logging@66] - Creating /brokers/ids/0 (is it secure? false)
-2022-07-05 02:56:06,843 - INFO  [main:Logging@66] - Stat of the created znode at /brokers/ids/0 is: 25,25,1657004166835,1657004166835,1,0,0,72238373817942016,204,0,25
+2025-03-26 17:31:09,614 - INFO  [ThrottledChannelReaper-Fetch:Logging@66] - [ThrottledChannelReaper-Fetch]: Starting
+2025-03-26 17:31:09,615 - INFO  [ThrottledChannelReaper-Produce:Logging@66] - [ThrottledChannelReaper-Produce]: Starting
+2025-03-26 17:31:09,615 - INFO  [ThrottledChannelReaper-Request:Logging@66] - [ThrottledChannelReaper-Request]: Starting
+2025-03-26 17:31:09,616 - INFO  [ThrottledChannelReaper-ControllerMutation:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Starting
+2025-03-26 17:31:09,633 - INFO  [main:Logging@66] - Loading logs from log dirs ArraySeq(/tmp/junit5868215782785718894/junit6619212803612852418)
+2025-03-26 17:31:09,635 - INFO  [main:Logging@66] - Attempting recovery for all logs in /tmp/junit5868215782785718894/junit6619212803612852418 since no clean shutdown file was found
+2025-03-26 17:31:09,637 - INFO  [main:Logging@66] - Loaded 0 logs in 0ms.
+2025-03-26 17:31:09,638 - INFO  [main:Logging@66] - Starting log cleanup with a period of 300000 ms.
+2025-03-26 17:31:09,639 - INFO  [main:Logging@66] - Starting log flusher with a default period of 9223372036854775807 ms.
+2025-03-26 17:31:09,855 - INFO  [main:Logging@66] - Updated connection-accept-rate max connection creation rate to 2147483647
+2025-03-26 17:31:09,857 - INFO  [main:Logging@66] - Awaiting socket connections on localhost:45117.
+2025-03-26 17:31:09,880 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT)
+2025-03-26 17:31:09,896 - INFO  [BrokerToControllerChannelManager broker=0 name=alterIsr:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Starting
+2025-03-26 17:31:09,906 - INFO  [ExpirationReaper-0-Produce:Logging@66] - [ExpirationReaper-0-Produce]: Starting
+2025-03-26 17:31:09,906 - INFO  [ExpirationReaper-0-Fetch:Logging@66] - [ExpirationReaper-0-Fetch]: Starting
+2025-03-26 17:31:09,907 - INFO  [ExpirationReaper-0-DeleteRecords:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Starting
+2025-03-26 17:31:09,907 - INFO  [ExpirationReaper-0-ElectLeader:Logging@66] - [ExpirationReaper-0-ElectLeader]: Starting
+2025-03-26 17:31:09,915 - INFO  [LogDirFailureHandler:Logging@66] - [LogDirFailureHandler]: Starting
+2025-03-26 17:31:09,933 - INFO  [main:Logging@66] - Creating /brokers/ids/0 (is it secure? false)
+2025-03-26 17:31:09,947 - INFO  [main:Logging@66] - Stat of the created znode at /brokers/ids/0 is: 25,25,1743010269942,1743010269942,1,0,0,72060504313823232,204,0,25
 
-2022-07-05 02:56:06,844 - INFO  [main:Logging@66] - Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://localhost:41521, czxid (broker epoch): 25
-2022-07-05 02:56:06,907 - INFO  [ExpirationReaper-0-topic:Logging@66] - [ExpirationReaper-0-topic]: Starting
-2022-07-05 02:56:06,913 - INFO  [ExpirationReaper-0-Heartbeat:Logging@66] - [ExpirationReaper-0-Heartbeat]: Starting
-2022-07-05 02:56:06,913 - INFO  [ExpirationReaper-0-Rebalance:Logging@66] - [ExpirationReaper-0-Rebalance]: Starting
-2022-07-05 02:56:06,915 - INFO  [controller-event-thread:Logging@66] - Successfully created /controller_epoch with initial epoch 0
-2022-07-05 02:56:06,926 - INFO  [main-EventThread:Logging@66] - Feature ZK node created at path: /feature
-2022-07-05 02:56:06,930 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Starting up.
-2022-07-05 02:56:06,934 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Startup complete.
-2022-07-05 02:56:06,959 - INFO  [feature-zk-node-event-process-thread:Logging@66] - Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0).
-2022-07-05 02:56:06,959 - INFO  [main:Logging@66] - [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1
-2022-07-05 02:56:06,960 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Starting up.
-2022-07-05 02:56:06,962 - INFO  [TxnMarkerSenderThread-0:Logging@66] - [Transaction Marker Channel Manager 0]: Starting
-2022-07-05 02:56:06,963 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Startup complete.
-2022-07-05 02:56:06,989 - INFO  [ExpirationReaper-0-AlterAcls:Logging@66] - [ExpirationReaper-0-AlterAcls]: Starting
-2022-07-05 02:56:07,015 - INFO  [/config/changes-event-process-thread:Logging@66] - [/config/changes-event-process-thread]: Starting
-2022-07-05 02:56:07,022 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Starting socket server acceptors and processors
-2022-07-05 02:56:07,026 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT)
-2022-07-05 02:56:07,027 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Started socket server acceptors and processors
-2022-07-05 02:56:07,028 - WARN  [main:AppInfoParser@46] - Error while loading kafka-version.properties: null
-2022-07-05 02:56:07,029 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,030 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,030 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004164850
-2022-07-05 02:56:07,031 - INFO  [main:Logging@66] - [KafkaServer id=0] started
-2022-07-05 02:56:07,050 - INFO  [main:AbstractConfig@372] - AdminClientConfig values: 
-	bootstrap.servers = [localhost:41521]
+2025-03-26 17:31:09,947 - INFO  [main:Logging@66] - Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://localhost:45117, czxid (broker epoch): 25
+2025-03-26 17:31:09,987 - INFO  [ExpirationReaper-0-topic:Logging@66] - [ExpirationReaper-0-topic]: Starting
+2025-03-26 17:31:09,989 - INFO  [ExpirationReaper-0-Heartbeat:Logging@66] - [ExpirationReaper-0-Heartbeat]: Starting
+2025-03-26 17:31:09,990 - INFO  [ExpirationReaper-0-Rebalance:Logging@66] - [ExpirationReaper-0-Rebalance]: Starting
+2025-03-26 17:31:09,996 - INFO  [controller-event-thread:Logging@66] - Successfully created /controller_epoch with initial epoch 0
+2025-03-26 17:31:10,004 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Starting up.
+2025-03-26 17:31:10,007 - INFO  [main-EventThread:Logging@66] - Feature ZK node created at path: /feature
+2025-03-26 17:31:10,008 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Startup complete.
+2025-03-26 17:31:10,025 - INFO  [main:Logging@66] - [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1
+2025-03-26 17:31:10,026 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Starting up.
+2025-03-26 17:31:10,028 - INFO  [TxnMarkerSenderThread-0:Logging@66] - [Transaction Marker Channel Manager 0]: Starting
+2025-03-26 17:31:10,028 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Startup complete.
+2025-03-26 17:31:10,035 - INFO  [feature-zk-node-event-process-thread:Logging@66] - Updated cache from existing <empty> to latest FinalizedFeaturesAndEpoch(features=Features{}, epoch=0).
+2025-03-26 17:31:10,047 - INFO  [ExpirationReaper-0-AlterAcls:Logging@66] - [ExpirationReaper-0-AlterAcls]: Starting
+2025-03-26 17:31:10,064 - INFO  [/config/changes-event-process-thread:Logging@66] - [/config/changes-event-process-thread]: Starting
+2025-03-26 17:31:10,069 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Starting socket server acceptors and processors
+2025-03-26 17:31:10,072 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT)
+2025-03-26 17:31:10,072 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Started socket server acceptors and processors
+2025-03-26 17:31:10,074 - WARN  [main:AppInfoParser@46] - Error while loading kafka-version.properties: null
+2025-03-26 17:31:10,074 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,074 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,074 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010268908
+2025-03-26 17:31:10,075 - INFO  [main:Logging@66] - [KafkaServer id=0] started
+2025-03-26 17:31:10,088 - INFO  [main:AbstractConfig@372] - AdminClientConfig values: 
+	bootstrap.servers = [localhost:45117]
 	client.dns.lookup = use_all_dns_ips
 	client.id = 
 	connections.max.idle.ms = 300000
@@ -865,22 +865,22 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2022-07-05 02:56:07,072 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,073 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,073 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004167072
-2022-07-05 02:56:07,130 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Creating topic inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover with configuration {} and initial partition assignment HashMap(0 -> ArrayBuffer(0))
-2022-07-05 02:56:07,145 - INFO  [BrokerToControllerChannelManager broker=0 name=alterIsr:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Recorded new controller, from now on will use broker localhost:41521 (id: 0 rack: null)
-2022-07-05 02:56:07,200 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0)
-2022-07-05 02:56:07,268 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,271 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 in /tmp/junit908791874146947038/junit2077944468751917615/inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,274 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] No checkpointed highwatermark is found for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:07,275 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] Log loaded for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with initial high watermark 0
-2022-07-05 02:56:07,302 - INFO  [kafka-admin-client-thread | adminclient-1:AppInfoParser@83] - App info kafka.admin.client for adminclient-1 unregistered
-2022-07-05 02:56:07,304 - INFO  [kafka-admin-client-thread | adminclient-1:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:07,304 - INFO  [kafka-admin-client-thread | adminclient-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:07,305 - INFO  [kafka-admin-client-thread | adminclient-1:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:07,307 - INFO  [main:AbstractConfig@372] - AdminClientConfig values: 
-	bootstrap.servers = [localhost:41521]
+2025-03-26 17:31:10,107 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,107 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,107 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270107
+2025-03-26 17:31:10,159 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Creating topic inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover with configuration {} and initial partition assignment HashMap(0 -> ArrayBuffer(0))
+2025-03-26 17:31:10,204 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0)
+2025-03-26 17:31:10,205 - INFO  [BrokerToControllerChannelManager broker=0 name=alterIsr:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Recorded new controller, from now on will use broker localhost:45117 (id: 0 rack: null)
+2025-03-26 17:31:10,240 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,242 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 in /tmp/junit5868215782785718894/junit6619212803612852418/inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,243 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] No checkpointed highwatermark is found for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,243 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] Log loaded for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with initial high watermark 0
+2025-03-26 17:31:10,273 - INFO  [kafka-admin-client-thread | adminclient-1:AppInfoParser@83] - App info kafka.admin.client for adminclient-1 unregistered
+2025-03-26 17:31:10,274 - INFO  [kafka-admin-client-thread | adminclient-1:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:10,275 - INFO  [kafka-admin-client-thread | adminclient-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:10,275 - INFO  [kafka-admin-client-thread | adminclient-1:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:10,277 - INFO  [main:AbstractConfig@372] - AdminClientConfig values: 
+	bootstrap.servers = [localhost:45117]
 	client.dns.lookup = use_all_dns_ips
 	client.id = 
 	connections.max.idle.ms = 300000
@@ -935,24 +935,24 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2022-07-05 02:56:07,309 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,309 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,309 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004167309
-2022-07-05 02:56:07,320 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - Creating topic outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover with configuration {} and initial partition assignment HashMap(0 -> ArrayBuffer(0))
-2022-07-05 02:56:07,332 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0)
-2022-07-05 02:56:07,335 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Log partition=outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,336 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Created log for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 in /tmp/junit908791874146947038/junit2077944468751917615/outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,336 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] No checkpointed highwatermark is found for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:07,336 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] Log loaded for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with initial high watermark 0
-2022-07-05 02:56:07,341 - INFO  [kafka-admin-client-thread | adminclient-2:AppInfoParser@83] - App info kafka.admin.client for adminclient-2 unregistered
-2022-07-05 02:56:07,342 - INFO  [kafka-admin-client-thread | adminclient-2:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:07,342 - INFO  [kafka-admin-client-thread | adminclient-2:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:07,342 - INFO  [kafka-admin-client-thread | adminclient-2:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:07,396 - INFO  [main:AbstractConfig@372] - StreamsConfig values: 
+2025-03-26 17:31:10,280 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,280 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,280 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270280
+2025-03-26 17:31:10,288 - INFO  [data-plane-kafka-request-handler-2:Logging@66] - Creating topic outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover with configuration {} and initial partition assignment HashMap(0 -> ArrayBuffer(0))
+2025-03-26 17:31:10,300 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0)
+2025-03-26 17:31:10,302 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [Log partition=outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,302 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - Created log for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 in /tmp/junit5868215782785718894/junit6619212803612852418/outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,303 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [Partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] No checkpointed highwatermark is found for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,303 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [Partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 broker=0] Log loaded for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 with initial high watermark 0
+2025-03-26 17:31:10,307 - INFO  [kafka-admin-client-thread | adminclient-2:AppInfoParser@83] - App info kafka.admin.client for adminclient-2 unregistered
+2025-03-26 17:31:10,308 - INFO  [kafka-admin-client-thread | adminclient-2:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:10,308 - INFO  [kafka-admin-client-thread | adminclient-2:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:10,308 - INFO  [kafka-admin-client-thread | adminclient-2:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:10,331 - INFO  [main:AbstractConfig@372] - StreamsConfig values: 
 	acceptable.recovery.lag = 10000
 	application.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover
 	application.server = 
-	bootstrap.servers = [localhost:41521]
+	bootstrap.servers = [localhost:45117]
 	buffered.records.per.partition = 1000
 	built.in.metrics.version = latest
 	cache.max.bytes.buffering = 0
@@ -990,19 +990,19 @@
 	security.protocol = PLAINTEXT
 	send.buffer.bytes = 131072
 	state.cleanup.delay.ms = 600000
-	state.dir = /tmp/kafka-1067299138980771220
+	state.dir = /tmp/kafka-9191421086638995687
 	task.timeout.ms = 300000
 	topology.optimization = none
 	upgrade.from = null
 	window.size.ms = null
 	windowstore.changelog.additional.retention.ms = 86400000
 
-2022-07-05 02:56:07,427 - WARN  [main:StateDirectory@138] - Using an OS temp directory in the state.dir property can cause failures with writing the checkpoint file due to the fact that this directory can be cleared by the OS. Resolved state.dir: [/tmp/kafka-1067299138980771220]
-2022-07-05 02:56:07,428 - INFO  [main:StateDirectory@212] - No process id found on disk, got fresh process id f8581bf3-f2a6-421b-9b71-c8a609d4a046
-2022-07-05 02:56:07,461 - INFO  [main:AbstractConfig@372] - AdminClientConfig values: 
-	bootstrap.servers = [localhost:41521]
+2025-03-26 17:31:10,342 - WARN  [main:StateDirectory@138] - Using an OS temp directory in the state.dir property can cause failures with writing the checkpoint file due to the fact that this directory can be cleared by the OS. Resolved state.dir: [/tmp/kafka-9191421086638995687]
+2025-03-26 17:31:10,343 - INFO  [main:StateDirectory@212] - No process id found on disk, got fresh process id 65bfeb4b-2429-44a9-8490-2d43d4cca02d
+2025-03-26 17:31:10,355 - INFO  [main:AbstractConfig@372] - AdminClientConfig values: 
+	bootstrap.servers = [localhost:45117]
 	client.dns.lookup = use_all_dns_ips
-	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-admin
+	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-admin
 	connections.max.idle.ms = 300000
 	default.api.timeout.ms = 60000
 	metadata.max.age.ms = 300000
@@ -1055,10 +1055,10 @@
 	ssl.truststore.password = null
 	ssl.truststore.type = JKS
 
-2022-07-05 02:56:07,463 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,464 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,464 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004167463
-2022-07-05 02:56:07,467 - WARN  [main:ClientMetrics@55] - Error while loading kafka-streams-version.properties
+2025-03-26 17:31:10,356 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,356 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,356 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270356
+2025-03-26 17:31:10,357 - WARN  [main:ClientMetrics@55] - Error while loading kafka-streams-version.properties
 java.lang.NullPointerException
 	at java.util.Properties$LineReader.readLine(Properties.java:434)
 	at java.util.Properties.load0(Properties.java:353)
@@ -1067,7 +1067,7 @@ java.lang.NullPointerException
 	at org.apache.kafka.streams.KafkaStreams.<init>(KafkaStreams.java:825)
 	at org.apache.kafka.streams.KafkaStreams.<init>(KafkaStreams.java:781)
 	at org.apache.kafka.streams.KafkaStreams.<init>(KafkaStreams.java:691)
-	at org.apache.kafka.streams.integration.EmitOnChangeIntegrationTest.shouldEmitSameRecordAfterFailover(EmitOnChangeIntegrationTest.java:106)
+	at org.apache.kafka.streams.integration.EmitOnChangeIntegrationTest.shouldEmitSameRecordAfterFailover(EmitOnChangeIntegrationTest.java:131)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1124,17 +1124,17 @@ java.lang.NullPointerException
 	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:50)
 	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:43)
 	at org.junit.platform.console.ConsoleLauncher.main(ConsoleLauncher.java:37)
-2022-07-05 02:56:07,470 - INFO  [main:KafkaStreams@825] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] Kafka Streams version: unknown
-2022-07-05 02:56:07,470 - INFO  [main:KafkaStreams@826] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] Kafka Streams commit ID: unknown
-2022-07-05 02:56:07,479 - INFO  [main:StreamThread@337] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Creating restore consumer client
-2022-07-05 02:56:07,483 - INFO  [main:AbstractConfig@372] - ConsumerConfig values: 
+2025-03-26 17:31:10,359 - INFO  [main:KafkaStreams@825] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] Kafka Streams version: unknown
+2025-03-26 17:31:10,359 - INFO  [main:KafkaStreams@826] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] Kafka Streams commit ID: unknown
+2025-03-26 17:31:10,364 - INFO  [main:StreamThread@337] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Creating restore consumer client
+2025-03-26 17:31:10,366 - INFO  [main:AbstractConfig@372] - ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = none
-	bootstrap.servers = [localhost:41521]
+	bootstrap.servers = [localhost:45117]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
-	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer
+	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer
 	client.rack = 
 	connections.max.idle.ms = 540000
 	default.api.timeout.ms = 60000
@@ -1206,17 +1206,17 @@ java.lang.NullPointerException
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
 
-2022-07-05 02:56:07,503 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,504 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,504 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004167503
-2022-07-05 02:56:07,511 - INFO  [main:ActiveTaskCreator@96] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Creating thread producer client
-2022-07-05 02:56:07,515 - INFO  [main:AbstractConfig@372] - ProducerConfig values: 
+2025-03-26 17:31:10,377 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,377 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,377 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270377
+2025-03-26 17:31:10,380 - INFO  [main:ActiveTaskCreator@96] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Creating thread producer client
+2025-03-26 17:31:10,383 - INFO  [main:AbstractConfig@372] - ProducerConfig values: 
 	acks = 1
 	batch.size = 16384
-	bootstrap.servers = [localhost:41521]
+	bootstrap.servers = [localhost:45117]
 	buffer.memory = 33554432
 	client.dns.lookup = use_all_dns_ips
-	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-producer
+	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-producer
 	compression.type = none
 	connections.max.idle.ms = 540000
 	delivery.timeout.ms = 120000
@@ -1283,19 +1283,19 @@ java.lang.NullPointerException
 	transactional.id = null
 	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
 
-2022-07-05 02:56:07,527 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,528 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,528 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004167527
-2022-07-05 02:56:07,532 - INFO  [main:StreamThread@389] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Creating consumer client
-2022-07-05 02:56:07,534 - INFO  [kafka-producer-network-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-producer:Metadata@279] - [Producer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-producer] Cluster ID: KmvgGXfIS1CzvbpBFQ5b4A
-2022-07-05 02:56:07,535 - INFO  [main:AbstractConfig@372] - ConsumerConfig values: 
+2025-03-26 17:31:10,394 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,394 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,395 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270394
+2025-03-26 17:31:10,399 - INFO  [main:StreamThread@389] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Creating consumer client
+2025-03-26 17:31:10,400 - INFO  [kafka-producer-network-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-producer:Metadata@279] - [Producer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-producer] Cluster ID: tRcczqLyRmWjkDL5ldkR8g
+2025-03-26 17:31:10,400 - INFO  [main:AbstractConfig@372] - ConsumerConfig values: 
 	allow.auto.create.topics = false
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = earliest
-	bootstrap.servers = [localhost:41521]
+	bootstrap.servers = [localhost:45117]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
-	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer
+	client.id = appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer
 	client.rack = 
 	connections.max.idle.ms = 540000
 	default.api.timeout.ms = 60000
@@ -1367,115 +1367,115 @@ java.lang.NullPointerException
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
 
-2022-07-05 02:56:07,545 - INFO  [main:AssignorConfiguration@114] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer] Cooperative rebalancing enabled now
-2022-07-05 02:56:07,557 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:07,557 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:07,557 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004167557
-2022-07-05 02:56:07,564 - INFO  [main:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] State transition from CREATED to REBALANCING
-2022-07-05 02:56:07,565 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@550] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Starting
-2022-07-05 02:56:07,565 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] State transition from CREATED to STARTING
-2022-07-05 02:56:07,565 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:KafkaConsumer@968] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Subscribed to topic(s): inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover
-2022-07-05 02:56:07,577 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metadata@279] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Cluster ID: KmvgGXfIS1CzvbpBFQ5b4A
-2022-07-05 02:56:07,579 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Creating topic __consumer_offsets with configuration {segment.bytes=104857600, cleanup.policy=compact, compression.type=producer} and initial partition assignment HashMap(0 -> ArrayBuffer(0), 1 -> ArrayBuffer(0), 2 -> ArrayBuffer(0), 3 -> ArrayBuffer(0), 4 -> ArrayBuffer(0))
-2022-07-05 02:56:07,599 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions HashSet(__consumer_offsets-4, __consumer_offsets-3, __consumer_offsets-2, __consumer_offsets-0, __consumer_offsets-1)
-2022-07-05 02:56:07,602 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=__consumer_offsets-3, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,603 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition __consumer_offsets-3 in /tmp/junit908791874146947038/junit2077944468751917615/__consumer_offsets-3 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,603 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-3 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-3
-2022-07-05 02:56:07,603 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-3 broker=0] Log loaded for partition __consumer_offsets-3 with initial high watermark 0
-2022-07-05 02:56:07,606 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=__consumer_offsets-2, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,607 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition __consumer_offsets-2 in /tmp/junit908791874146947038/junit2077944468751917615/__consumer_offsets-2 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,607 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-2 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-2
-2022-07-05 02:56:07,607 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-2 broker=0] Log loaded for partition __consumer_offsets-2 with initial high watermark 0
-2022-07-05 02:56:07,614 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=__consumer_offsets-4, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,615 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition __consumer_offsets-4 in /tmp/junit908791874146947038/junit2077944468751917615/__consumer_offsets-4 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,615 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-4 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-4
-2022-07-05 02:56:07,615 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-4 broker=0] Log loaded for partition __consumer_offsets-4 with initial high watermark 0
-2022-07-05 02:56:07,623 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=__consumer_offsets-1, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,623 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition __consumer_offsets-1 in /tmp/junit908791874146947038/junit2077944468751917615/__consumer_offsets-1 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,624 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-1 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-1
-2022-07-05 02:56:07,624 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-1 broker=0] Log loaded for partition __consumer_offsets-1 with initial high watermark 0
-2022-07-05 02:56:07,632 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Log partition=__consumer_offsets-0, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,632 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - Created log for partition __consumer_offsets-0 in /tmp/junit908791874146947038/junit2077944468751917615/__consumer_offsets-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,632 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-0 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-0
-2022-07-05 02:56:07,632 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [Partition __consumer_offsets-0 broker=0] Log loaded for partition __consumer_offsets-0 with initial high watermark 0
-2022-07-05 02:56:07,638 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 3
-2022-07-05 02:56:07,639 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-3
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 2
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-2
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 4
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-4
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 1
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-1
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 0
-2022-07-05 02:56:07,640 - INFO  [data-plane-kafka-request-handler-5:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-0
-2022-07-05 02:56:07,644 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-3 in 5 milliseconds, of which 1 milliseconds was spent in the scheduler.
-2022-07-05 02:56:07,644 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-2 in 4 milliseconds, of which 4 milliseconds was spent in the scheduler.
-2022-07-05 02:56:07,644 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-4 in 4 milliseconds, of which 4 milliseconds was spent in the scheduler.
-2022-07-05 02:56:07,644 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-1 in 4 milliseconds, of which 4 milliseconds was spent in the scheduler.
-2022-07-05 02:56:07,645 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-0 in 5 milliseconds, of which 5 milliseconds was spent in the scheduler.
-2022-07-05 02:56:07,669 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@829] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Processed 0 total records, ran 0 punctuators, and committed 0 total tasks since the last update
-2022-07-05 02:56:07,674 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AbstractCoordinator$FindCoordinatorResponseHandler@844] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Discovered group coordinator localhost:41521 (id: 2147483647 rack: null)
-2022-07-05 02:56:07,675 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AbstractCoordinator@534] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] (Re-)joining group
-2022-07-05 02:56:07,695 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [GroupCoordinator 0]: Dynamic member with unknown member id joins group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover in Empty state. Created a new member id appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872 and request the member to rejoin with this id.
-2022-07-05 02:56:07,699 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AbstractCoordinator@982] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Request joining group due to: need to re-join with the given member-id
-2022-07-05 02:56:07,699 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AbstractCoordinator@534] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] (Re-)joining group
-2022-07-05 02:56:07,704 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Preparing to rebalance group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover in state PreparingRebalance with old generation 0 (__consumer_offsets-0) (reason: Adding new member appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872 with group instance id None)
-2022-07-05 02:56:07,709 - INFO  [executor-Rebalance:Logging@66] - [GroupCoordinator 0]: Stabilized group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover generation 1 (__consumer_offsets-0) with 1 members
-2022-07-05 02:56:07,711 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AbstractCoordinator$JoinGroupResponseHandler@590] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Successfully joined group with generation Generation{generationId=1, memberId='appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872', protocol='stream'}
-2022-07-05 02:56:07,728 - INFO  [data-plane-kafka-request-handler-6:Logging@66] - Creating topic appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog with configuration {message.timestamp.type=CreateTime, cleanup.policy=compact} and initial partition assignment HashMap(0 -> ArrayBuffer(0))
-2022-07-05 02:56:07,738 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0)
-2022-07-05 02:56:07,741 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - [Log partition=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0, dir=/tmp/junit908791874146947038/junit2077944468751917615] Loading producer state till offset 0 with message format version 2
-2022-07-05 02:56:07,741 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - Created log for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 in /tmp/junit908791874146947038/junit2077944468751917615/appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
-2022-07-05 02:56:07,741 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - [Partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 broker=0] No checkpointed highwatermark is found for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
-2022-07-05 02:56:07,742 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - [Partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 broker=0] Log loaded for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 with initial high watermark 0
-2022-07-05 02:56:07,753 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:HighAvailabilityTaskAssignor@95] - Decided on assignment: {f8581bf3-f2a6-421b-9b71-c8a609d4a046=[activeTasks: ([0_0]) standbyTasks: ([]) prevActiveTasks: ([]) prevStandbyTasks: ([]) changelogOffsetTotalsByTask: ([]) taskLagTotals: ([0_0=0]) capacity: 1 assigned: 1]} with no followup probing rebalance.
-2022-07-05 02:56:07,754 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamsPartitionAssignor@595] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer] Assigned tasks [0_0] including stateful [0_0] to clients as: 
-f8581bf3-f2a6-421b-9b71-c8a609d4a046=[activeTasks: ([0_0]) standbyTasks: ([])].
-2022-07-05 02:56:07,758 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamsPartitionAssignor@803] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer] Client f8581bf3-f2a6-421b-9b71-c8a609d4a046 per-consumer assignment:
+2025-03-26 17:31:10,408 - INFO  [main:AssignorConfiguration@114] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer] Cooperative rebalancing enabled now
+2025-03-26 17:31:10,416 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,416 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,416 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270416
+2025-03-26 17:31:10,420 - INFO  [main:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] State transition from CREATED to REBALANCING
+2025-03-26 17:31:10,420 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@550] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Starting
+2025-03-26 17:31:10,421 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] State transition from CREATED to STARTING
+2025-03-26 17:31:10,421 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:KafkaConsumer@968] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Subscribed to topic(s): inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover
+2025-03-26 17:31:10,431 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metadata@279] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Cluster ID: tRcczqLyRmWjkDL5ldkR8g
+2025-03-26 17:31:10,433 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - Creating topic __consumer_offsets with configuration {segment.bytes=104857600, cleanup.policy=compact, compression.type=producer} and initial partition assignment HashMap(0 -> ArrayBuffer(0), 1 -> ArrayBuffer(0), 2 -> ArrayBuffer(0), 3 -> ArrayBuffer(0), 4 -> ArrayBuffer(0))
+2025-03-26 17:31:10,447 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions HashSet(__consumer_offsets-4, __consumer_offsets-3, __consumer_offsets-2, __consumer_offsets-0, __consumer_offsets-1)
+2025-03-26 17:31:10,450 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Log partition=__consumer_offsets-3, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,451 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Created log for partition __consumer_offsets-3 in /tmp/junit5868215782785718894/junit6619212803612852418/__consumer_offsets-3 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,451 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-3 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-3
+2025-03-26 17:31:10,451 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-3 broker=0] Log loaded for partition __consumer_offsets-3 with initial high watermark 0
+2025-03-26 17:31:10,455 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Log partition=__consumer_offsets-2, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,456 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Created log for partition __consumer_offsets-2 in /tmp/junit5868215782785718894/junit6619212803612852418/__consumer_offsets-2 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,456 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-2 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-2
+2025-03-26 17:31:10,456 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-2 broker=0] Log loaded for partition __consumer_offsets-2 with initial high watermark 0
+2025-03-26 17:31:10,460 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Log partition=__consumer_offsets-4, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,460 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Created log for partition __consumer_offsets-4 in /tmp/junit5868215782785718894/junit6619212803612852418/__consumer_offsets-4 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,461 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-4 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-4
+2025-03-26 17:31:10,461 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-4 broker=0] Log loaded for partition __consumer_offsets-4 with initial high watermark 0
+2025-03-26 17:31:10,464 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Log partition=__consumer_offsets-1, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,465 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Created log for partition __consumer_offsets-1 in /tmp/junit5868215782785718894/junit6619212803612852418/__consumer_offsets-1 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,465 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-1 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-1
+2025-03-26 17:31:10,465 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-1 broker=0] Log loaded for partition __consumer_offsets-1 with initial high watermark 0
+2025-03-26 17:31:10,468 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Log partition=__consumer_offsets-0, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,469 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - Created log for partition __consumer_offsets-0 in /tmp/junit5868215782785718894/junit6619212803612852418/__consumer_offsets-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 104857600, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,469 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-0 broker=0] No checkpointed highwatermark is found for partition __consumer_offsets-0
+2025-03-26 17:31:10,469 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [Partition __consumer_offsets-0 broker=0] Log loaded for partition __consumer_offsets-0 with initial high watermark 0
+2025-03-26 17:31:10,471 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 3
+2025-03-26 17:31:10,472 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-3
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 2
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-2
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 4
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-4
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 1
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-1
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Elected as the group coordinator for partition 0
+2025-03-26 17:31:10,473 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-0
+2025-03-26 17:31:10,476 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-3 in 4 milliseconds, of which 1 milliseconds was spent in the scheduler.
+2025-03-26 17:31:10,476 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-2 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler.
+2025-03-26 17:31:10,476 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-4 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler.
+2025-03-26 17:31:10,476 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-1 in 3 milliseconds, of which 3 milliseconds was spent in the scheduler.
+2025-03-26 17:31:10,477 - INFO  [group-metadata-manager-0:Logging@66] - [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-0 in 4 milliseconds, of which 3 milliseconds was spent in the scheduler.
+2025-03-26 17:31:10,523 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@829] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Processed 0 total records, ran 0 punctuators, and committed 0 total tasks since the last update
+2025-03-26 17:31:10,527 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AbstractCoordinator$FindCoordinatorResponseHandler@844] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Discovered group coordinator localhost:45117 (id: 2147483647 rack: null)
+2025-03-26 17:31:10,528 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AbstractCoordinator@534] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] (Re-)joining group
+2025-03-26 17:31:10,540 - INFO  [data-plane-kafka-request-handler-2:Logging@66] - [GroupCoordinator 0]: Dynamic member with unknown member id joins group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover in Empty state. Created a new member id appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9 and request the member to rejoin with this id.
+2025-03-26 17:31:10,543 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AbstractCoordinator@982] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Request joining group due to: need to re-join with the given member-id
+2025-03-26 17:31:10,544 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AbstractCoordinator@534] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] (Re-)joining group
+2025-03-26 17:31:10,548 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [GroupCoordinator 0]: Preparing to rebalance group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover in state PreparingRebalance with old generation 0 (__consumer_offsets-0) (reason: Adding new member appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9 with group instance id None)
+2025-03-26 17:31:10,553 - INFO  [executor-Rebalance:Logging@66] - [GroupCoordinator 0]: Stabilized group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover generation 1 (__consumer_offsets-0) with 1 members
+2025-03-26 17:31:10,554 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AbstractCoordinator$JoinGroupResponseHandler@590] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Successfully joined group with generation Generation{generationId=1, memberId='appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9', protocol='stream'}
+2025-03-26 17:31:10,571 - INFO  [data-plane-kafka-request-handler-6:Logging@66] - Creating topic appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog with configuration {message.timestamp.type=CreateTime, cleanup.policy=compact} and initial partition assignment HashMap(0 -> ArrayBuffer(0))
+2025-03-26 17:31:10,581 - INFO  [data-plane-kafka-request-handler-7:Logging@66] - [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0)
+2025-03-26 17:31:10,584 - INFO  [data-plane-kafka-request-handler-7:Logging@66] - [Log partition=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0, dir=/tmp/junit5868215782785718894/junit6619212803612852418] Loading producer state till offset 0 with message format version 2
+2025-03-26 17:31:10,585 - INFO  [data-plane-kafka-request-handler-7:Logging@66] - Created log for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 in /tmp/junit5868215782785718894/junit6619212803612852418/appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> compact, flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.8-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000000, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}.
+2025-03-26 17:31:10,585 - INFO  [data-plane-kafka-request-handler-7:Logging@66] - [Partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 broker=0] No checkpointed highwatermark is found for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
+2025-03-26 17:31:10,585 - INFO  [data-plane-kafka-request-handler-7:Logging@66] - [Partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 broker=0] Log loaded for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 with initial high watermark 0
+2025-03-26 17:31:10,602 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:HighAvailabilityTaskAssignor@95] - Decided on assignment: {65bfeb4b-2429-44a9-8490-2d43d4cca02d=[activeTasks: ([0_0]) standbyTasks: ([]) prevActiveTasks: ([]) prevStandbyTasks: ([]) changelogOffsetTotalsByTask: ([]) taskLagTotals: ([0_0=0]) capacity: 1 assigned: 1]} with no followup probing rebalance.
+2025-03-26 17:31:10,602 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamsPartitionAssignor@595] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer] Assigned tasks [0_0] including stateful [0_0] to clients as: 
+65bfeb4b-2429-44a9-8490-2d43d4cca02d=[activeTasks: ([0_0]) standbyTasks: ([])].
+2025-03-26 17:31:10,604 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamsPartitionAssignor@803] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer] Client 65bfeb4b-2429-44a9-8490-2d43d4cca02d per-consumer assignment:
 	prev owned active {}
-	prev owned standby {appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872=[]}
-	assigned active {appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872=[0_0]}
+	prev owned standby {appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9=[]}
+	assigned active {appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9=[0_0]}
 	revoking active {}
 	assigned standby {}
 
-2022-07-05 02:56:07,758 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamsPartitionAssignor@822] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer] Finished stable assignment of tasks, no followup rebalances required.
-2022-07-05 02:56:07,758 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ConsumerCoordinator@626] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Finished assignment for group at generation 1: {appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872=Assignment(partitions=[inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0], userDataSize=48)}
-2022-07-05 02:56:07,764 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [GroupCoordinator 0]: Assignment received from leader for group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover for generation 1. The group has 1 members, 0 of which are static.
-2022-07-05 02:56:07,821 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AbstractCoordinator$SyncGroupResponseHandler@756] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Successfully synced group in generation Generation{generationId=1, memberId='appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer-d896e560-5730-41d0-933f-8db582530872', protocol='stream'}
-2022-07-05 02:56:07,822 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ConsumerCoordinator@392] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Updating assignment with
+2025-03-26 17:31:10,605 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamsPartitionAssignor@822] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer] Finished stable assignment of tasks, no followup rebalances required.
+2025-03-26 17:31:10,605 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ConsumerCoordinator@626] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Finished assignment for group at generation 1: {appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9=Assignment(partitions=[inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0], userDataSize=48)}
+2025-03-26 17:31:10,610 - INFO  [data-plane-kafka-request-handler-2:Logging@66] - [GroupCoordinator 0]: Assignment received from leader for group appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover for generation 1. The group has 1 members, 0 of which are static.
+2025-03-26 17:31:10,644 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AbstractCoordinator$SyncGroupResponseHandler@756] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Successfully synced group in generation Generation{generationId=1, memberId='appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer-8bfb53b6-3835-44e0-875c-3f816a4aa6a9', protocol='stream'}
+2025-03-26 17:31:10,644 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ConsumerCoordinator@392] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Updating assignment with
 	Assigned partitions:                       [inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0]
 	Current owned partitions:                  []
 	Added partitions (assigned - owned):       [inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0]
 	Revoked partitions (owned - assigned):     []
 
-2022-07-05 02:56:07,822 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ConsumerCoordinator@276] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Notifying assignor about the new Assignment(partitions=[inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0], userDataSize=48)
-2022-07-05 02:56:07,822 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamsPartitionAssignor@1306] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer] No followup rebalance was requested, resetting the rebalance schedule.
-2022-07-05 02:56:07,824 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:TaskManager@254] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Handle new assignment with:
+2025-03-26 17:31:10,644 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ConsumerCoordinator@276] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Notifying assignor about the new Assignment(partitions=[inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0], userDataSize=48)
+2025-03-26 17:31:10,645 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamsPartitionAssignor@1306] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer] No followup rebalance was requested, resetting the rebalance schedule.
+2025-03-26 17:31:10,646 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:TaskManager@254] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Handle new assignment with:
 	New active tasks: [0_0]
 	New standby tasks: []
 	Existing active tasks: []
 	Existing standby tasks: []
-2022-07-05 02:56:07,840 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ConsumerCoordinator@288] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Adding newly assigned partitions: inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:07,840 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] State transition from STARTING to PARTITIONS_ASSIGNED
-2022-07-05 02:56:07,849 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ConsumerCoordinator$OffsetFetchResponseHandler@1352] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Found no committed offset for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:07,862 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:SubscriptionState@398] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Resetting offset for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:41521 (id: 0 rack: null)], epoch=0}}.
-2022-07-05 02:56:08,023 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:RocksDBTimestampedStore@100] - Opening store test-store in regular mode
-2022-07-05 02:56:08,027 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ProcessorStateManager@256] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] State store test-store did not find checkpoint offset, hence would default to the starting offset at changelog appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
-2022-07-05 02:56:08,027 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamTask@235] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] Initialized
-2022-07-05 02:56:08,033 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:KafkaConsumer@1123] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer, groupId=null] Subscribed to partition(s): appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
-2022-07-05 02:56:08,034 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:SubscriptionState@619] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer, groupId=null] Seeking to EARLIEST offset of partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
-2022-07-05 02:56:08,037 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metadata@279] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer, groupId=null] Cluster ID: KmvgGXfIS1CzvbpBFQ5b4A
-2022-07-05 02:56:08,040 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:SubscriptionState@398] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer, groupId=null] Resetting offset for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:41521 (id: 0 rack: null)], epoch=0}}.
-2022-07-05 02:56:08,141 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StoreChangelogReader@609] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Finished restoring changelog appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 to store test-store with a total number of 0 records
-2022-07-05 02:56:08,144 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:ConsumerCoordinator$OffsetFetchResponseHandler@1352] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Found no committed offset for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:08,147 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamTask@255] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] Restored and ready to run
-2022-07-05 02:56:08,148 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@853] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Restoration took 308 ms for all tasks [0_0]
-2022-07-05 02:56:08,148 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] State transition from PARTITIONS_ASSIGNED to RUNNING
-2022-07-05 02:56:08,149 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] State transition from REBALANCING to RUNNING
-2022-07-05 02:56:08,151 - INFO  [main:AbstractConfig@372] - ProducerConfig values: 
+2025-03-26 17:31:10,656 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ConsumerCoordinator@288] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Adding newly assigned partitions: inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,656 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] State transition from STARTING to PARTITIONS_ASSIGNED
+2025-03-26 17:31:10,663 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ConsumerCoordinator$OffsetFetchResponseHandler@1352] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Found no committed offset for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,673 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:SubscriptionState@398] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Resetting offset for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:45117 (id: 0 rack: null)], epoch=0}}.
+2025-03-26 17:31:10,804 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:RocksDBTimestampedStore@100] - Opening store test-store in regular mode
+2025-03-26 17:31:10,806 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ProcessorStateManager@256] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] State store test-store did not find checkpoint offset, hence would default to the starting offset at changelog appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
+2025-03-26 17:31:10,807 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamTask@235] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] Initialized
+2025-03-26 17:31:10,813 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:KafkaConsumer@1123] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer, groupId=null] Subscribed to partition(s): appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
+2025-03-26 17:31:10,813 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:SubscriptionState@619] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer, groupId=null] Seeking to EARLIEST offset of partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
+2025-03-26 17:31:10,817 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metadata@279] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer, groupId=null] Cluster ID: tRcczqLyRmWjkDL5ldkR8g
+2025-03-26 17:31:10,819 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:SubscriptionState@398] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer, groupId=null] Resetting offset for partition appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:45117 (id: 0 rack: null)], epoch=0}}.
+2025-03-26 17:31:10,919 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StoreChangelogReader@609] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Finished restoring changelog appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 to store test-store with a total number of 0 records
+2025-03-26 17:31:10,921 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:ConsumerCoordinator$OffsetFetchResponseHandler@1352] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer, groupId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover] Found no committed offset for partition inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,924 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamTask@255] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] Restored and ready to run
+2025-03-26 17:31:10,924 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@853] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Restoration took 268 ms for all tasks [0_0]
+2025-03-26 17:31:10,924 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] State transition from PARTITIONS_ASSIGNED to RUNNING
+2025-03-26 17:31:10,925 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] State transition from REBALANCING to RUNNING
+2025-03-26 17:31:10,927 - INFO  [main:AbstractConfig@372] - ProducerConfig values: 
 	acks = -1
 	batch.size = 16384
-	bootstrap.servers = [localhost:41521]
+	bootstrap.servers = [localhost:45117]
 	buffer.memory = 33554432
 	client.dns.lookup = use_all_dns_ips
 	client.id = producer-1
@@ -1545,23 +1545,23 @@ f8581bf3-f2a6-421b-9b71-c8a609d4a046=[activeTasks: ([0_0]) standbyTasks: ([])].
 	transactional.id = null
 	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
 
-2022-07-05 02:56:08,153 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:08,153 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:08,153 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004168153
-2022-07-05 02:56:08,156 - INFO  [kafka-producer-network-thread | producer-1:Metadata@279] - [Producer clientId=producer-1] Cluster ID: KmvgGXfIS1CzvbpBFQ5b4A
-2022-07-05 02:56:08,160 - INFO  [main:KafkaProducer@1204] - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
-2022-07-05 02:56:08,175 - INFO  [main:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,175 - INFO  [main:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,175 - INFO  [main:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,175 - INFO  [main:AppInfoParser@83] - App info kafka.producer for producer-1 unregistered
-2022-07-05 02:56:08,176 - INFO  [main:AbstractConfig@372] - ConsumerConfig values: 
+2025-03-26 17:31:10,929 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,929 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,929 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270929
+2025-03-26 17:31:10,931 - INFO  [kafka-producer-network-thread | producer-1:Metadata@279] - [Producer clientId=producer-1] Cluster ID: tRcczqLyRmWjkDL5ldkR8g
+2025-03-26 17:31:10,934 - INFO  [main:KafkaProducer@1204] - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2025-03-26 17:31:10,945 - INFO  [main:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:10,945 - INFO  [main:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:10,945 - INFO  [main:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:10,945 - INFO  [main:AppInfoParser@83] - App info kafka.producer for producer-1 unregistered
+2025-03-26 17:31:10,946 - INFO  [main:AbstractConfig@372] - ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = earliest
-	bootstrap.servers = [localhost:41521]
+	bootstrap.servers = [localhost:45117]
 	check.crcs = true
 	client.dns.lookup = use_all_dns_ips
-	client.id = consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1
+	client.id = consumer-14af5dda-605f-4723-9fce-10e39005d759-1
 	client.rack = 
 	connections.max.idle.ms = 540000
 	default.api.timeout.ms = 60000
@@ -1570,7 +1570,7 @@ f8581bf3-f2a6-421b-9b71-c8a609d4a046=[activeTasks: ([0_0]) standbyTasks: ([])].
 	fetch.max.bytes = 52428800
 	fetch.max.wait.ms = 500
 	fetch.min.bytes = 1
-	group.id = f8fb62cd-4620-4e8f-945f-bc0ef5388888
+	group.id = 14af5dda-605f-4723-9fce-10e39005d759
 	group.instance.id = null
 	heartbeat.interval.ms = 3000
 	interceptor.classes = []
@@ -1633,176 +1633,175 @@ f8581bf3-f2a6-421b-9b71-c8a609d4a046=[activeTasks: ([0_0]) standbyTasks: ([])].
 	ssl.truststore.type = JKS
 	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
 
-2022-07-05 02:56:08,178 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
-2022-07-05 02:56:08,179 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
-2022-07-05 02:56:08,179 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1657004168178
-2022-07-05 02:56:08,180 - INFO  [main:KafkaConsumer@968] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Subscribed to topic(s): outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover
-2022-07-05 02:56:08,183 - INFO  [main:Metadata@279] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Cluster ID: KmvgGXfIS1CzvbpBFQ5b4A
-2022-07-05 02:56:08,183 - INFO  [main:AbstractCoordinator$FindCoordinatorResponseHandler@844] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Discovered group coordinator localhost:41521 (id: 2147483647 rack: null)
-2022-07-05 02:56:08,184 - INFO  [main:AbstractCoordinator@534] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] (Re-)joining group
-2022-07-05 02:56:08,186 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - [GroupCoordinator 0]: Dynamic member with unknown member id joins group f8fb62cd-4620-4e8f-945f-bc0ef5388888 in Empty state. Created a new member id consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4 and request the member to rejoin with this id.
-2022-07-05 02:56:08,187 - INFO  [main:AbstractCoordinator@982] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Request joining group due to: need to re-join with the given member-id
-2022-07-05 02:56:08,187 - INFO  [main:AbstractCoordinator@534] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] (Re-)joining group
-2022-07-05 02:56:08,188 - INFO  [data-plane-kafka-request-handler-2:Logging@66] - [GroupCoordinator 0]: Preparing to rebalance group f8fb62cd-4620-4e8f-945f-bc0ef5388888 in state PreparingRebalance with old generation 0 (__consumer_offsets-3) (reason: Adding new member consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4 with group instance id None)
-2022-07-05 02:56:08,188 - INFO  [executor-Rebalance:Logging@66] - [GroupCoordinator 0]: Stabilized group f8fb62cd-4620-4e8f-945f-bc0ef5388888 generation 1 (__consumer_offsets-3) with 1 members
-2022-07-05 02:56:08,189 - INFO  [main:AbstractCoordinator$JoinGroupResponseHandler@590] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Successfully joined group with generation Generation{generationId=1, memberId='consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4', protocol='range'}
-2022-07-05 02:56:08,190 - INFO  [main:ConsumerCoordinator@626] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Finished assignment for group at generation 1: {consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4=Assignment(partitions=[outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0])}
-2022-07-05 02:56:08,191 - INFO  [data-plane-kafka-request-handler-1:Logging@66] - [GroupCoordinator 0]: Assignment received from leader for group f8fb62cd-4620-4e8f-945f-bc0ef5388888 for generation 1. The group has 1 members, 0 of which are static.
-2022-07-05 02:56:08,192 - INFO  [main:AbstractCoordinator$SyncGroupResponseHandler@756] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Successfully synced group in generation Generation{generationId=1, memberId='consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4', protocol='range'}
-2022-07-05 02:56:08,192 - INFO  [main:ConsumerCoordinator@276] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Notifying assignor about the new Assignment(partitions=[outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0])
-2022-07-05 02:56:08,192 - INFO  [main:ConsumerCoordinator@288] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Adding newly assigned partitions: outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:08,193 - INFO  [main:ConsumerCoordinator$OffsetFetchResponseHandler@1352] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Found no committed offset for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:08,197 - INFO  [main:SubscriptionState@398] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Resetting offset for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:41521 (id: 0 rack: null)], epoch=0}}.
-2022-07-05 02:56:08,320 - INFO  [main:ConsumerCoordinator@307] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Revoke previously assigned partitions outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
-2022-07-05 02:56:08,320 - INFO  [main:AbstractCoordinator@1038] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Member consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4 sending LeaveGroup request to coordinator localhost:41521 (id: 2147483647 rack: null) due to the consumer is being closed
-2022-07-05 02:56:08,321 - INFO  [main:AbstractCoordinator@961] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Resetting generation due to: consumer pro-actively leaving the group
-2022-07-05 02:56:08,321 - INFO  [main:AbstractCoordinator@982] - [Consumer clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, groupId=f8fb62cd-4620-4e8f-945f-bc0ef5388888] Request joining group due to: consumer pro-actively leaving the group
-2022-07-05 02:56:08,324 - INFO  [data-plane-kafka-request-handler-6:Logging@66] - [GroupCoordinator 0]: Preparing to rebalance group f8fb62cd-4620-4e8f-945f-bc0ef5388888 in state PreparingRebalance with old generation 1 (__consumer_offsets-3) (reason: removing member consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4 on LeaveGroup)
-2022-07-05 02:56:08,324 - INFO  [data-plane-kafka-request-handler-6:Logging@66] - [GroupCoordinator 0]: Group f8fb62cd-4620-4e8f-945f-bc0ef5388888 with generation 2 is now empty (__consumer_offsets-3)
-2022-07-05 02:56:08,327 - INFO  [data-plane-kafka-request-handler-6:Logging@66] - [GroupCoordinator 0]: Member MemberMetadata(memberId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1-67ec25ad-32ab-4162-bff2-9458e2e256b4, groupInstanceId=None, clientId=consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1, clientHost=/127.0.0.1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) has left group f8fb62cd-4620-4e8f-945f-bc0ef5388888 through explicit `LeaveGroup` request
-2022-07-05 02:56:08,329 - INFO  [main:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,329 - INFO  [main:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,329 - INFO  [main:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,330 - INFO  [main:AppInfoParser@83] - App info kafka.consumer for consumer-f8fb62cd-4620-4e8f-945f-bc0ef5388888-1 unregistered
-2022-07-05 02:56:08,330 - INFO  [main:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] State transition from RUNNING to PENDING_SHUTDOWN
-2022-07-05 02:56:08,331 - INFO  [kafka-streams-close-thread:StreamThread@1057] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Informed to shut down
-2022-07-05 02:56:08,331 - INFO  [kafka-streams-close-thread:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] State transition from RUNNING to PENDING_SHUTDOWN
-2022-07-05 02:56:08,404 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@729] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Thread state is already PENDING_SHUTDOWN, skipping the run once call after poll request
-2022-07-05 02:56:08,404 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@1071] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Shutting down
-2022-07-05 02:56:08,426 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamTask@1144] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] Suspended RUNNING
-2022-07-05 02:56:08,426 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamTask@290] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] Suspended running
-2022-07-05 02:56:08,428 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:KafkaConsumer@1077] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer, groupId=null] Unsubscribed all topics or patterns and assigned partitions
-2022-07-05 02:56:08,429 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:RecordCollectorImpl@268] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] Closing record collector clean
-2022-07-05 02:56:08,430 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamTask@508] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] task [0_0] Closed clean
-2022-07-05 02:56:08,430 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:KafkaProducer@1204] - [Producer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
-2022-07-05 02:56:08,432 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,432 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,432 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,432 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AppInfoParser@83] - App info kafka.producer for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-producer unregistered
-2022-07-05 02:56:08,432 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:KafkaConsumer@1077] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer, groupId=null] Unsubscribed all topics or patterns and assigned partitions
-2022-07-05 02:56:08,433 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,433 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,433 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,434 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AppInfoParser@83] - App info kafka.consumer for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-consumer unregistered
-2022-07-05 02:56:08,434 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,434 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,434 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,436 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:AppInfoParser@83] - App info kafka.consumer for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1-restore-consumer unregistered
-2022-07-05 02:56:08,436 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] State transition from PENDING_SHUTDOWN to DEAD
-2022-07-05 02:56:08,436 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1:StreamThread@1100] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-StreamThread-1] Shutdown complete
-2022-07-05 02:56:08,436 - ERROR [kafka-streams-close-thread:StateDirectory@414] - Some task directories still locked while closing state, this indicates unclean shutdown: {}
-2022-07-05 02:56:08,436 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-admin:AppInfoParser@83] - App info kafka.admin.client for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-admin unregistered
-2022-07-05 02:56:08,437 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-admin:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,437 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-admin:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,437 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046-admin:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,438 - INFO  [kafka-streams-close-thread:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:08,438 - INFO  [kafka-streams-close-thread:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:08,438 - INFO  [kafka-streams-close-thread:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:08,438 - INFO  [kafka-streams-close-thread:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] State transition from PENDING_SHUTDOWN to NOT_RUNNING
-2022-07-05 02:56:08,438 - INFO  [main:KafkaStreams@1367] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-f8581bf3-f2a6-421b-9b71-c8a609d4a046] Streams client stopped completely
-2022-07-05 02:56:08,441 - INFO  [main:Logging@66] - [KafkaServer id=0] shutting down
-2022-07-05 02:56:08,442 - INFO  [main:Logging@66] - [KafkaServer id=0] Starting controlled shutdown
-2022-07-05 02:56:08,452 - INFO  [main:Logging@66] - [KafkaServer id=0] Controlled shutdown succeeded
-2022-07-05 02:56:08,453 - INFO  [main:Logging@66] - [/config/changes-event-process-thread]: Shutting down
-2022-07-05 02:56:08,454 - INFO  [main:Logging@66] - [/config/changes-event-process-thread]: Shutdown completed
-2022-07-05 02:56:08,454 - INFO  [/config/changes-event-process-thread:Logging@66] - [/config/changes-event-process-thread]: Stopped
-2022-07-05 02:56:08,454 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Stopping socket server request processors
-2022-07-05 02:56:08,458 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Stopped socket server request processors
-2022-07-05 02:56:08,459 - INFO  [main:Logging@66] - [data-plane Kafka Request Handler on Broker 0], shutting down
-2022-07-05 02:56:08,460 - INFO  [main:Logging@66] - [data-plane Kafka Request Handler on Broker 0], shut down completely
-2022-07-05 02:56:08,461 - INFO  [main:Logging@66] - [ExpirationReaper-0-AlterAcls]: Shutting down
-2022-07-05 02:56:08,590 - INFO  [ExpirationReaper-0-AlterAcls:Logging@66] - [ExpirationReaper-0-AlterAcls]: Stopped
-2022-07-05 02:56:08,590 - INFO  [main:Logging@66] - [ExpirationReaper-0-AlterAcls]: Shutdown completed
-2022-07-05 02:56:08,591 - INFO  [main:Logging@66] - [KafkaApi-0] Shutdown complete.
-2022-07-05 02:56:08,591 - INFO  [main:Logging@66] - [ExpirationReaper-0-topic]: Shutting down
-2022-07-05 02:56:08,709 - INFO  [ExpirationReaper-0-topic:Logging@66] - [ExpirationReaper-0-topic]: Stopped
-2022-07-05 02:56:08,709 - INFO  [main:Logging@66] - [ExpirationReaper-0-topic]: Shutdown completed
-2022-07-05 02:56:08,710 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Shutting down.
-2022-07-05 02:56:08,711 - INFO  [main:Logging@66] - [ProducerId Manager 0]: Shutdown complete: last producerId assigned 0
-2022-07-05 02:56:08,711 - INFO  [main:Logging@66] - [Transaction State Manager 0]: Shutdown complete
-2022-07-05 02:56:08,711 - INFO  [main:Logging@66] - [Transaction Marker Channel Manager 0]: Shutting down
-2022-07-05 02:56:08,711 - INFO  [TxnMarkerSenderThread-0:Logging@66] - [Transaction Marker Channel Manager 0]: Stopped
-2022-07-05 02:56:08,711 - INFO  [main:Logging@66] - [Transaction Marker Channel Manager 0]: Shutdown completed
-2022-07-05 02:56:08,712 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Shutdown complete.
-2022-07-05 02:56:08,712 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Shutting down.
-2022-07-05 02:56:08,712 - INFO  [main:Logging@66] - [ExpirationReaper-0-Heartbeat]: Shutting down
-2022-07-05 02:56:08,714 - INFO  [ExpirationReaper-0-Heartbeat:Logging@66] - [ExpirationReaper-0-Heartbeat]: Stopped
-2022-07-05 02:56:08,714 - INFO  [main:Logging@66] - [ExpirationReaper-0-Heartbeat]: Shutdown completed
-2022-07-05 02:56:08,714 - INFO  [main:Logging@66] - [ExpirationReaper-0-Rebalance]: Shutting down
-2022-07-05 02:56:08,789 - INFO  [ExpirationReaper-0-Rebalance:Logging@66] - [ExpirationReaper-0-Rebalance]: Stopped
-2022-07-05 02:56:08,789 - INFO  [main:Logging@66] - [ExpirationReaper-0-Rebalance]: Shutdown completed
-2022-07-05 02:56:08,789 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Shutdown complete.
-2022-07-05 02:56:08,790 - INFO  [main:Logging@66] - [ReplicaManager broker=0] Shutting down
-2022-07-05 02:56:08,790 - INFO  [main:Logging@66] - [LogDirFailureHandler]: Shutting down
-2022-07-05 02:56:08,790 - INFO  [main:Logging@66] - [LogDirFailureHandler]: Shutdown completed
-2022-07-05 02:56:08,790 - INFO  [LogDirFailureHandler:Logging@66] - [LogDirFailureHandler]: Stopped
-2022-07-05 02:56:08,791 - INFO  [main:Logging@66] - [ReplicaFetcherManager on broker 0] shutting down
-2022-07-05 02:56:08,792 - INFO  [main:Logging@66] - [ReplicaFetcherManager on broker 0] shutdown completed
-2022-07-05 02:56:08,792 - INFO  [main:Logging@66] - [ReplicaAlterLogDirsManager on broker 0] shutting down
-2022-07-05 02:56:08,792 - INFO  [main:Logging@66] - [ReplicaAlterLogDirsManager on broker 0] shutdown completed
-2022-07-05 02:56:08,792 - INFO  [main:Logging@66] - [ExpirationReaper-0-Fetch]: Shutting down
-2022-07-05 02:56:08,806 - INFO  [ExpirationReaper-0-Fetch:Logging@66] - [ExpirationReaper-0-Fetch]: Stopped
-2022-07-05 02:56:08,806 - INFO  [main:Logging@66] - [ExpirationReaper-0-Fetch]: Shutdown completed
-2022-07-05 02:56:08,806 - INFO  [main:Logging@66] - [ExpirationReaper-0-Produce]: Shutting down
-2022-07-05 02:56:08,960 - INFO  [ExpirationReaper-0-Produce:Logging@66] - [ExpirationReaper-0-Produce]: Stopped
-2022-07-05 02:56:08,960 - INFO  [main:Logging@66] - [ExpirationReaper-0-Produce]: Shutdown completed
-2022-07-05 02:56:08,961 - INFO  [main:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Shutting down
-2022-07-05 02:56:09,161 - INFO  [ExpirationReaper-0-DeleteRecords:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Stopped
-2022-07-05 02:56:09,161 - INFO  [main:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Shutdown completed
-2022-07-05 02:56:09,161 - INFO  [main:Logging@66] - [ExpirationReaper-0-ElectLeader]: Shutting down
-2022-07-05 02:56:09,361 - INFO  [ExpirationReaper-0-ElectLeader:Logging@66] - [ExpirationReaper-0-ElectLeader]: Stopped
-2022-07-05 02:56:09,361 - INFO  [main:Logging@66] - [ExpirationReaper-0-ElectLeader]: Shutdown completed
-2022-07-05 02:56:09,363 - INFO  [main:Logging@66] - [ReplicaManager broker=0] Shut down completely
-2022-07-05 02:56:09,363 - INFO  [main:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Shutting down
-2022-07-05 02:56:09,364 - INFO  [BrokerToControllerChannelManager broker=0 name=alterIsr:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Stopped
-2022-07-05 02:56:09,364 - INFO  [main:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Shutdown completed
-2022-07-05 02:56:09,364 - INFO  [main:Logging@66] - Broker to controller channel manager for alterIsr shutdown
-2022-07-05 02:56:09,365 - INFO  [main:Logging@66] - Shutting down.
-2022-07-05 02:56:09,375 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=__consumer_offsets-3] Writing producer snapshot at offset 3
-2022-07-05 02:56:09,390 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=__consumer_offsets-0] Writing producer snapshot at offset 2
-2022-07-05 02:56:09,407 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0] Writing producer snapshot at offset 2
-2022-07-05 02:56:09,423 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0] Writing producer snapshot at offset 2
-2022-07-05 02:56:09,440 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0] Writing producer snapshot at offset 2
-2022-07-05 02:56:09,466 - INFO  [main:Logging@66] - Shutdown complete.
-2022-07-05 02:56:09,472 - INFO  [main:Logging@66] - [feature-zk-node-event-process-thread]: Shutting down
-2022-07-05 02:56:09,472 - INFO  [feature-zk-node-event-process-thread:Logging@66] - [feature-zk-node-event-process-thread]: Stopped
-2022-07-05 02:56:09,472 - INFO  [main:Logging@66] - [feature-zk-node-event-process-thread]: Shutdown completed
-2022-07-05 02:56:09,473 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Closing.
-2022-07-05 02:56:09,576 - INFO  [main:ZooKeeper@1422] - Session: 0x100a46b12920000 closed
-2022-07-05 02:56:09,576 - INFO  [main-EventThread:ClientCnxn$EventThread@524] - EventThread shut down for session: 0x100a46b12920000
-2022-07-05 02:56:09,577 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Closed.
-2022-07-05 02:56:09,577 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Fetch]: Shutting down
-2022-07-05 02:56:10,221 - INFO  [ThrottledChannelReaper-Fetch:Logging@66] - [ThrottledChannelReaper-Fetch]: Stopped
-2022-07-05 02:56:10,221 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Fetch]: Shutdown completed
-2022-07-05 02:56:10,222 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Produce]: Shutting down
-2022-07-05 02:56:11,222 - INFO  [ThrottledChannelReaper-Produce:Logging@66] - [ThrottledChannelReaper-Produce]: Stopped
-2022-07-05 02:56:11,222 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Produce]: Shutdown completed
-2022-07-05 02:56:11,222 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Request]: Shutting down
-2022-07-05 02:56:11,223 - INFO  [ThrottledChannelReaper-Request:Logging@66] - [ThrottledChannelReaper-Request]: Stopped
-2022-07-05 02:56:11,223 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Request]: Shutdown completed
-2022-07-05 02:56:11,223 - INFO  [main:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Shutting down
-2022-07-05 02:56:11,224 - INFO  [ThrottledChannelReaper-ControllerMutation:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Stopped
-2022-07-05 02:56:11,224 - INFO  [main:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Shutdown completed
-2022-07-05 02:56:11,225 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Shutting down socket server
-2022-07-05 02:56:11,246 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Shutdown completed
-2022-07-05 02:56:11,246 - INFO  [main:Metrics@659] - Metrics scheduler closed
-2022-07-05 02:56:11,246 - INFO  [main:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
-2022-07-05 02:56:11,247 - INFO  [main:Metrics@669] - Metrics reporters closed
-2022-07-05 02:56:11,248 - INFO  [main:Logging@66] - Broker and topic stats closed
-2022-07-05 02:56:11,249 - INFO  [main:AppInfoParser@83] - App info kafka.server for 0 unregistered
-2022-07-05 02:56:11,249 - INFO  [main:Logging@66] - [KafkaServer id=0] shut down completed
-2022-07-05 02:56:11,347 - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@583] - ConnnectionExpirerThread interrupted
-2022-07-05 02:56:11,347 - INFO  [NIOServerCxnFactory.AcceptThread:/127.0.0.1:0:NIOServerCnxnFactory$AcceptThread@219] - accept thread exitted run method
-2022-07-05 02:56:11,348 - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@420] - selector thread exitted run method
-2022-07-05 02:56:11,348 - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@420] - selector thread exitted run method
-2022-07-05 02:56:11,348 - INFO  [NIOServerCxnFactory.SelectorThread-2:NIOServerCnxnFactory$SelectorThread@420] - selector thread exitted run method
-2022-07-05 02:56:11,348 - INFO  [main:ZooKeeperServer@573] - shutting down
-2022-07-05 02:56:11,349 - INFO  [main:SessionTrackerImpl@237] - Shutting down
-2022-07-05 02:56:11,349 - INFO  [main:PrepRequestProcessor@1008] - Shutting down
-2022-07-05 02:56:11,349 - INFO  [main:SyncRequestProcessor@191] - Shutting down
-2022-07-05 02:56:11,349 - INFO  [ProcessThread(sid:0 cport:39129)::PrepRequestProcessor@156] - PrepRequestProcessor exited loop!
-2022-07-05 02:56:11,349 - INFO  [SyncThread:0:SyncRequestProcessor@169] - SyncRequestProcessor exited!
-2022-07-05 02:56:11,349 - INFO  [main:FinalRequestProcessor@514] - shutdown of request processor complete
+2025-03-26 17:31:10,949 - INFO  [main:AppInfoParser$AppInfo@119] - Kafka version: unknown
+2025-03-26 17:31:10,949 - INFO  [main:AppInfoParser$AppInfo@120] - Kafka commitId: unknown
+2025-03-26 17:31:10,949 - INFO  [main:AppInfoParser$AppInfo@121] - Kafka startTimeMs: 1743010270949
+2025-03-26 17:31:10,950 - INFO  [main:KafkaConsumer@968] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Subscribed to topic(s): outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover
+2025-03-26 17:31:10,953 - INFO  [main:Metadata@279] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Cluster ID: tRcczqLyRmWjkDL5ldkR8g
+2025-03-26 17:31:10,954 - INFO  [main:AbstractCoordinator$FindCoordinatorResponseHandler@844] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Discovered group coordinator localhost:45117 (id: 2147483647 rack: null)
+2025-03-26 17:31:10,955 - INFO  [main:AbstractCoordinator@534] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] (Re-)joining group
+2025-03-26 17:31:10,957 - INFO  [data-plane-kafka-request-handler-7:Logging@66] - [GroupCoordinator 0]: Dynamic member with unknown member id joins group 14af5dda-605f-4723-9fce-10e39005d759 in Empty state. Created a new member id consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1 and request the member to rejoin with this id.
+2025-03-26 17:31:10,957 - INFO  [main:AbstractCoordinator@982] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Request joining group due to: need to re-join with the given member-id
+2025-03-26 17:31:10,958 - INFO  [main:AbstractCoordinator@534] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] (Re-)joining group
+2025-03-26 17:31:10,958 - INFO  [data-plane-kafka-request-handler-0:Logging@66] - [GroupCoordinator 0]: Preparing to rebalance group 14af5dda-605f-4723-9fce-10e39005d759 in state PreparingRebalance with old generation 0 (__consumer_offsets-4) (reason: Adding new member consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1 with group instance id None)
+2025-03-26 17:31:10,959 - INFO  [executor-Rebalance:Logging@66] - [GroupCoordinator 0]: Stabilized group 14af5dda-605f-4723-9fce-10e39005d759 generation 1 (__consumer_offsets-4) with 1 members
+2025-03-26 17:31:10,959 - INFO  [main:AbstractCoordinator$JoinGroupResponseHandler@590] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Successfully joined group with generation Generation{generationId=1, memberId='consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1', protocol='range'}
+2025-03-26 17:31:10,960 - INFO  [main:ConsumerCoordinator@626] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Finished assignment for group at generation 1: {consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1=Assignment(partitions=[outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0])}
+2025-03-26 17:31:10,961 - INFO  [data-plane-kafka-request-handler-3:Logging@66] - [GroupCoordinator 0]: Assignment received from leader for group 14af5dda-605f-4723-9fce-10e39005d759 for generation 1. The group has 1 members, 0 of which are static.
+2025-03-26 17:31:10,962 - INFO  [main:AbstractCoordinator$SyncGroupResponseHandler@756] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Successfully synced group in generation Generation{generationId=1, memberId='consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1', protocol='range'}
+2025-03-26 17:31:10,962 - INFO  [main:ConsumerCoordinator@276] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Notifying assignor about the new Assignment(partitions=[outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0])
+2025-03-26 17:31:10,962 - INFO  [main:ConsumerCoordinator@288] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Adding newly assigned partitions: outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,963 - INFO  [main:ConsumerCoordinator$OffsetFetchResponseHandler@1352] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Found no committed offset for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:10,966 - INFO  [main:SubscriptionState@398] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Resetting offset for partition outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:45117 (id: 0 rack: null)], epoch=0}}.
+2025-03-26 17:31:11,078 - INFO  [main:ConsumerCoordinator@307] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Revoke previously assigned partitions outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-03-26 17:31:11,078 - INFO  [main:AbstractCoordinator@1038] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Member consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1 sending LeaveGroup request to coordinator localhost:45117 (id: 2147483647 rack: null) due to the consumer is being closed
+2025-03-26 17:31:11,078 - INFO  [main:AbstractCoordinator@961] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Resetting generation due to: consumer pro-actively leaving the group
+2025-03-26 17:31:11,079 - INFO  [main:AbstractCoordinator@982] - [Consumer clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, groupId=14af5dda-605f-4723-9fce-10e39005d759] Request joining group due to: consumer pro-actively leaving the group
+2025-03-26 17:31:11,081 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Preparing to rebalance group 14af5dda-605f-4723-9fce-10e39005d759 in state PreparingRebalance with old generation 1 (__consumer_offsets-4) (reason: removing member consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1 on LeaveGroup)
+2025-03-26 17:31:11,082 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Group 14af5dda-605f-4723-9fce-10e39005d759 with generation 2 is now empty (__consumer_offsets-4)
+2025-03-26 17:31:11,084 - INFO  [data-plane-kafka-request-handler-4:Logging@66] - [GroupCoordinator 0]: Member MemberMetadata(memberId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1-c3fc8542-e28a-48e0-91ca-ab66032664f1, groupInstanceId=None, clientId=consumer-14af5dda-605f-4723-9fce-10e39005d759-1, clientHost=/127.0.0.1, sessionTimeoutMs=10000, rebalanceTimeoutMs=300000, supportedProtocols=List(range)) has left group 14af5dda-605f-4723-9fce-10e39005d759 through explicit `LeaveGroup` request
+2025-03-26 17:31:11,086 - INFO  [main:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:11,087 - INFO  [main:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:11,087 - INFO  [main:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:11,088 - INFO  [main:AppInfoParser@83] - App info kafka.consumer for consumer-14af5dda-605f-4723-9fce-10e39005d759-1 unregistered
+2025-03-26 17:31:11,089 - INFO  [main:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] State transition from RUNNING to PENDING_SHUTDOWN
+2025-03-26 17:31:11,091 - INFO  [kafka-streams-close-thread:StreamThread@1057] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Informed to shut down
+2025-03-26 17:31:11,091 - INFO  [kafka-streams-close-thread:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] State transition from RUNNING to PENDING_SHUTDOWN
+2025-03-26 17:31:11,164 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@729] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Thread state is already PENDING_SHUTDOWN, skipping the run once call after poll request
+2025-03-26 17:31:11,164 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@1071] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Shutting down
+2025-03-26 17:31:11,174 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamTask@1144] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] Suspended RUNNING
+2025-03-26 17:31:11,175 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamTask@290] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] Suspended running
+2025-03-26 17:31:11,176 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:KafkaConsumer@1077] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer, groupId=null] Unsubscribed all topics or patterns and assigned partitions
+2025-03-26 17:31:11,177 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:RecordCollectorImpl@268] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] Closing record collector clean
+2025-03-26 17:31:11,177 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamTask@508] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] task [0_0] Closed clean
+2025-03-26 17:31:11,178 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:KafkaProducer@1204] - [Producer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-producer] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2025-03-26 17:31:11,179 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:11,179 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:11,179 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:11,180 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AppInfoParser@83] - App info kafka.producer for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-producer unregistered
+2025-03-26 17:31:11,180 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:KafkaConsumer@1077] - [Consumer clientId=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer, groupId=null] Unsubscribed all topics or patterns and assigned partitions
+2025-03-26 17:31:11,180 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:11,180 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:11,180 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:11,181 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AppInfoParser@83] - App info kafka.consumer for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-consumer unregistered
+2025-03-26 17:31:11,181 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:11,181 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:11,181 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:11,182 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:AppInfoParser@83] - App info kafka.consumer for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1-restore-consumer unregistered
+2025-03-26 17:31:11,182 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@230] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] State transition from PENDING_SHUTDOWN to DEAD
+2025-03-26 17:31:11,182 - INFO  [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1:StreamThread@1100] - stream-thread [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-StreamThread-1] Shutdown complete
+2025-03-26 17:31:11,183 - ERROR [kafka-streams-close-thread:StateDirectory@414] - Some task directories still locked while closing state, this indicates unclean shutdown: {}
+2025-03-26 17:31:11,183 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-admin:AppInfoParser@83] - App info kafka.admin.client for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-admin unregistered
+2025-03-26 17:31:11,184 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-admin:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:11,184 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-admin:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:11,184 - INFO  [kafka-admin-client-thread | appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d-admin:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:11,184 - INFO  [kafka-streams-close-thread:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:11,184 - INFO  [kafka-streams-close-thread:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:11,185 - INFO  [kafka-streams-close-thread:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:11,185 - INFO  [kafka-streams-close-thread:KafkaStreams@321] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] State transition from PENDING_SHUTDOWN to NOT_RUNNING
+2025-03-26 17:31:11,185 - INFO  [main:KafkaStreams@1367] - stream-client [appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-65bfeb4b-2429-44a9-8490-2d43d4cca02d] Streams client stopped completely
+2025-03-26 17:31:11,187 - INFO  [main:Logging@66] - [KafkaServer id=0] shutting down
+2025-03-26 17:31:11,188 - INFO  [main:Logging@66] - [KafkaServer id=0] Starting controlled shutdown
+2025-03-26 17:31:11,195 - INFO  [main:Logging@66] - [KafkaServer id=0] Controlled shutdown succeeded
+2025-03-26 17:31:11,196 - INFO  [main:Logging@66] - [/config/changes-event-process-thread]: Shutting down
+2025-03-26 17:31:11,197 - INFO  [main:Logging@66] - [/config/changes-event-process-thread]: Shutdown completed
+2025-03-26 17:31:11,197 - INFO  [/config/changes-event-process-thread:Logging@66] - [/config/changes-event-process-thread]: Stopped
+2025-03-26 17:31:11,197 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Stopping socket server request processors
+2025-03-26 17:31:11,200 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Stopped socket server request processors
+2025-03-26 17:31:11,201 - INFO  [main:Logging@66] - [data-plane Kafka Request Handler on Broker 0], shutting down
+2025-03-26 17:31:11,202 - INFO  [main:Logging@66] - [data-plane Kafka Request Handler on Broker 0], shut down completely
+2025-03-26 17:31:11,203 - INFO  [main:Logging@66] - [ExpirationReaper-0-AlterAcls]: Shutting down
+2025-03-26 17:31:11,248 - INFO  [ExpirationReaper-0-AlterAcls:Logging@66] - [ExpirationReaper-0-AlterAcls]: Stopped
+2025-03-26 17:31:11,248 - INFO  [main:Logging@66] - [ExpirationReaper-0-AlterAcls]: Shutdown completed
+2025-03-26 17:31:11,249 - INFO  [main:Logging@66] - [KafkaApi-0] Shutdown complete.
+2025-03-26 17:31:11,249 - INFO  [main:Logging@66] - [ExpirationReaper-0-topic]: Shutting down
+2025-03-26 17:31:11,388 - INFO  [ExpirationReaper-0-topic:Logging@66] - [ExpirationReaper-0-topic]: Stopped
+2025-03-26 17:31:11,388 - INFO  [main:Logging@66] - [ExpirationReaper-0-topic]: Shutdown completed
+2025-03-26 17:31:11,389 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Shutting down.
+2025-03-26 17:31:11,390 - INFO  [main:Logging@66] - [ProducerId Manager 0]: Shutdown complete: last producerId assigned 0
+2025-03-26 17:31:11,390 - INFO  [main:Logging@66] - [Transaction State Manager 0]: Shutdown complete
+2025-03-26 17:31:11,390 - INFO  [main:Logging@66] - [Transaction Marker Channel Manager 0]: Shutting down
+2025-03-26 17:31:11,390 - INFO  [TxnMarkerSenderThread-0:Logging@66] - [Transaction Marker Channel Manager 0]: Stopped
+2025-03-26 17:31:11,390 - INFO  [main:Logging@66] - [Transaction Marker Channel Manager 0]: Shutdown completed
+2025-03-26 17:31:11,391 - INFO  [main:Logging@66] - [TransactionCoordinator id=0] Shutdown complete.
+2025-03-26 17:31:11,393 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Shutting down.
+2025-03-26 17:31:11,393 - INFO  [main:Logging@66] - [ExpirationReaper-0-Heartbeat]: Shutting down
+2025-03-26 17:31:11,591 - INFO  [ExpirationReaper-0-Heartbeat:Logging@66] - [ExpirationReaper-0-Heartbeat]: Stopped
+2025-03-26 17:31:11,591 - INFO  [main:Logging@66] - [ExpirationReaper-0-Heartbeat]: Shutdown completed
+2025-03-26 17:31:11,591 - INFO  [main:Logging@66] - [ExpirationReaper-0-Rebalance]: Shutting down
+2025-03-26 17:31:11,759 - INFO  [ExpirationReaper-0-Rebalance:Logging@66] - [ExpirationReaper-0-Rebalance]: Stopped
+2025-03-26 17:31:11,759 - INFO  [main:Logging@66] - [ExpirationReaper-0-Rebalance]: Shutdown completed
+2025-03-26 17:31:11,760 - INFO  [main:Logging@66] - [GroupCoordinator 0]: Shutdown complete.
+2025-03-26 17:31:11,760 - INFO  [main:Logging@66] - [ReplicaManager broker=0] Shutting down
+2025-03-26 17:31:11,761 - INFO  [main:Logging@66] - [LogDirFailureHandler]: Shutting down
+2025-03-26 17:31:11,761 - INFO  [LogDirFailureHandler:Logging@66] - [LogDirFailureHandler]: Stopped
+2025-03-26 17:31:11,761 - INFO  [main:Logging@66] - [LogDirFailureHandler]: Shutdown completed
+2025-03-26 17:31:11,761 - INFO  [main:Logging@66] - [ReplicaFetcherManager on broker 0] shutting down
+2025-03-26 17:31:11,762 - INFO  [main:Logging@66] - [ReplicaFetcherManager on broker 0] shutdown completed
+2025-03-26 17:31:11,762 - INFO  [main:Logging@66] - [ReplicaAlterLogDirsManager on broker 0] shutting down
+2025-03-26 17:31:11,763 - INFO  [main:Logging@66] - [ReplicaAlterLogDirsManager on broker 0] shutdown completed
+2025-03-26 17:31:11,763 - INFO  [main:Logging@66] - [ExpirationReaper-0-Fetch]: Shutting down
+2025-03-26 17:31:11,768 - INFO  [ExpirationReaper-0-Fetch:Logging@66] - [ExpirationReaper-0-Fetch]: Stopped
+2025-03-26 17:31:11,768 - INFO  [main:Logging@66] - [ExpirationReaper-0-Fetch]: Shutdown completed
+2025-03-26 17:31:11,769 - INFO  [main:Logging@66] - [ExpirationReaper-0-Produce]: Shutting down
+2025-03-26 17:31:11,907 - INFO  [ExpirationReaper-0-Produce:Logging@66] - [ExpirationReaper-0-Produce]: Stopped
+2025-03-26 17:31:11,907 - INFO  [main:Logging@66] - [ExpirationReaper-0-Produce]: Shutdown completed
+2025-03-26 17:31:11,908 - INFO  [main:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Shutting down
+2025-03-26 17:31:12,108 - INFO  [ExpirationReaper-0-DeleteRecords:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Stopped
+2025-03-26 17:31:12,108 - INFO  [main:Logging@66] - [ExpirationReaper-0-DeleteRecords]: Shutdown completed
+2025-03-26 17:31:12,108 - INFO  [main:Logging@66] - [ExpirationReaper-0-ElectLeader]: Shutting down
+2025-03-26 17:31:12,108 - INFO  [ExpirationReaper-0-ElectLeader:Logging@66] - [ExpirationReaper-0-ElectLeader]: Stopped
+2025-03-26 17:31:12,108 - INFO  [main:Logging@66] - [ExpirationReaper-0-ElectLeader]: Shutdown completed
+2025-03-26 17:31:12,110 - INFO  [main:Logging@66] - [ReplicaManager broker=0] Shut down completely
+2025-03-26 17:31:12,111 - INFO  [main:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Shutting down
+2025-03-26 17:31:12,111 - INFO  [BrokerToControllerChannelManager broker=0 name=alterIsr:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Stopped
+2025-03-26 17:31:12,111 - INFO  [main:Logging@66] - [BrokerToControllerChannelManager broker=0 name=alterIsr]: Shutdown completed
+2025-03-26 17:31:12,112 - INFO  [main:Logging@66] - Broker to controller channel manager for alterIsr shutdown
+2025-03-26 17:31:12,113 - INFO  [main:Logging@66] - Shutting down.
+2025-03-26 17:31:12,128 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=__consumer_offsets-0] Writing producer snapshot at offset 2
+2025-03-26 17:31:12,132 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=__consumer_offsets-4] Writing producer snapshot at offset 3
+2025-03-26 17:31:12,136 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0] Writing producer snapshot at offset 2
+2025-03-26 17:31:12,138 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0] Writing producer snapshot at offset 2
+2025-03-26 17:31:12,142 - INFO  [pool-8-thread-1:Logging@66] - [ProducerStateManager partition=inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0] Writing producer snapshot at offset 2
+2025-03-26 17:31:12,152 - INFO  [main:Logging@66] - Shutdown complete.
+2025-03-26 17:31:12,158 - INFO  [main:Logging@66] - [feature-zk-node-event-process-thread]: Shutting down
+2025-03-26 17:31:12,158 - INFO  [feature-zk-node-event-process-thread:Logging@66] - [feature-zk-node-event-process-thread]: Stopped
+2025-03-26 17:31:12,158 - INFO  [main:Logging@66] - [feature-zk-node-event-process-thread]: Shutdown completed
+2025-03-26 17:31:12,159 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Closing.
+2025-03-26 17:31:12,261 - INFO  [main:ZooKeeper@1422] - Session: 0x10002a599f60000 closed
+2025-03-26 17:31:12,261 - INFO  [main-EventThread:ClientCnxn$EventThread@524] - EventThread shut down for session: 0x10002a599f60000
+2025-03-26 17:31:12,262 - INFO  [main:Logging@66] - [ZooKeeperClient Kafka server] Closed.
+2025-03-26 17:31:12,262 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Fetch]: Shutting down
+2025-03-26 17:31:12,615 - INFO  [ThrottledChannelReaper-Fetch:Logging@66] - [ThrottledChannelReaper-Fetch]: Stopped
+2025-03-26 17:31:12,615 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Fetch]: Shutdown completed
+2025-03-26 17:31:12,615 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Produce]: Shutting down
+2025-03-26 17:31:13,615 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Produce]: Shutdown completed
+2025-03-26 17:31:13,615 - INFO  [ThrottledChannelReaper-Produce:Logging@66] - [ThrottledChannelReaper-Produce]: Stopped
+2025-03-26 17:31:13,615 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Request]: Shutting down
+2025-03-26 17:31:13,616 - INFO  [main:Logging@66] - [ThrottledChannelReaper-Request]: Shutdown completed
+2025-03-26 17:31:13,616 - INFO  [ThrottledChannelReaper-Request:Logging@66] - [ThrottledChannelReaper-Request]: Stopped
+2025-03-26 17:31:13,616 - INFO  [main:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Shutting down
+2025-03-26 17:31:13,617 - INFO  [ThrottledChannelReaper-ControllerMutation:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Stopped
+2025-03-26 17:31:13,617 - INFO  [main:Logging@66] - [ThrottledChannelReaper-ControllerMutation]: Shutdown completed
+2025-03-26 17:31:13,617 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Shutting down socket server
+2025-03-26 17:31:13,634 - INFO  [main:Logging@66] - [SocketServer listenerType=ZK_BROKER, nodeId=0] Shutdown completed
+2025-03-26 17:31:13,635 - INFO  [main:Metrics@659] - Metrics scheduler closed
+2025-03-26 17:31:13,635 - INFO  [main:Metrics@663] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-03-26 17:31:13,635 - INFO  [main:Metrics@669] - Metrics reporters closed
+2025-03-26 17:31:13,638 - INFO  [main:Logging@66] - Broker and topic stats closed
+2025-03-26 17:31:13,638 - INFO  [main:AppInfoParser@83] - App info kafka.server for 0 unregistered
+2025-03-26 17:31:13,638 - INFO  [main:Logging@66] - [KafkaServer id=0] shut down completed
+2025-03-26 17:31:13,643 - INFO  [ConnnectionExpirer:NIOServerCnxnFactory$ConnectionExpirerThread@583] - ConnnectionExpirerThread interrupted
+2025-03-26 17:31:13,643 - INFO  [NIOServerCxnFactory.AcceptThread:/127.0.0.1:0:NIOServerCnxnFactory$AcceptThread@219] - accept thread exitted run method
+2025-03-26 17:31:13,644 - INFO  [NIOServerCxnFactory.SelectorThread-1:NIOServerCnxnFactory$SelectorThread@420] - selector thread exitted run method
+2025-03-26 17:31:13,644 - INFO  [NIOServerCxnFactory.SelectorThread-0:NIOServerCnxnFactory$SelectorThread@420] - selector thread exitted run method
+2025-03-26 17:31:13,644 - INFO  [main:ZooKeeperServer@573] - shutting down
+2025-03-26 17:31:13,644 - INFO  [main:SessionTrackerImpl@237] - Shutting down
+2025-03-26 17:31:13,644 - INFO  [main:PrepRequestProcessor@1008] - Shutting down
+2025-03-26 17:31:13,644 - INFO  [main:SyncRequestProcessor@191] - Shutting down
+2025-03-26 17:31:13,644 - INFO  [ProcessThread(sid:0 cport:35993)::PrepRequestProcessor@156] - PrepRequestProcessor exited loop!
+2025-03-26 17:31:13,644 - INFO  [SyncThread:0:SyncRequestProcessor@169] - SyncRequestProcessor exited!
+2025-03-26 17:31:13,644 - INFO  [main:FinalRequestProcessor@514] - shutdown of request processor complete
 
 Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 
@@ -1812,7 +1811,7 @@ Thanks for using JUnit! Support its development at https://junit.org/sponsoring
 [36m   └─[0m [36mEmitOnChangeIntegrationTest[0m [32m✔[0m
 [36m      └─[0m [34mshouldEmitSameRecordAfterFailover[0m [32m✔[0m
 
-Test run finished after 6671 ms
+Test run finished after 4815 ms
 [         3 containers found      ]
 [         0 containers skipped    ]
 [         3 containers started    ]

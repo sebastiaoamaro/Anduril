@@ -1,0 +1,2 @@
+2025-03-05 16:43:47,988 - INFO  [controller-event-thread:Logging@66] - [Controller id=0 epoch=1] Sending UpdateMetadata request to brokers HashSet(0) for 0 partitions
+2025-03-05 16:45:00,504 - INFO  [controller-event-thread:Logging@66] - [Controller id=0 epoch=1] Sending UpdateMetadata request to brokers HashSet(0) for 0 partitions

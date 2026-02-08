@@ -1,0 +1,58 @@
+2025-02-18 15:45:17,058 - INFO  [controller-event-thread:Logging@66] - [ControllerEventThread controllerId=0] Starting
+2025-02-18 15:45:17,091 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] 0 successfully elected as the controller. Epoch incremented to 1 and epoch zk version is now 1
+2025-02-18 15:45:17,094 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Creating FeatureZNode at path: /feature with contents: FeatureZNode(Enabled,Features{})
+2025-02-18 15:45:17,134 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Registering handlers
+2025-02-18 15:45:17,137 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Deleting log dir event notifications
+2025-02-18 15:45:17,138 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Deleting isr change notifications
+2025-02-18 15:45:17,147 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Initializing controller context
+2025-02-18 15:45:17,172 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Initialized broker epochs cache: HashMap(0 -> 25)
+2025-02-18 15:45:17,193 - DEBUG [controller-event-thread:Logging@62] - [Controller id=0] Register BrokerModifications handler for Set(0)
+2025-02-18 15:45:17,198 - DEBUG [controller-event-thread:Logging@62] - [Channel manager on controller 0]: Controller 0 trying to connect to broker 0
+2025-02-18 15:45:17,204 - INFO  [Controller-0-to-broker-0-send-thread:Logging@66] - [RequestSendThread controllerId=0] Starting
+2025-02-18 15:45:17,206 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Currently active brokers in the cluster: Set(0)
+2025-02-18 15:45:17,208 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Currently shutting brokers in the cluster: HashSet()
+2025-02-18 15:45:17,211 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Current list of topics in the cluster: HashSet()
+2025-02-18 15:45:17,213 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Fetching topic deletions in progress
+2025-02-18 15:45:17,224 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] List of topics to be deleted: 
+2025-02-18 15:45:17,225 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] List of topics ineligible for deletion: 
+2025-02-18 15:45:17,225 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Initializing topic deletion manager
+2025-02-18 15:45:17,225 - INFO  [controller-event-thread:Logging@66] - [Topic Deletion Manager 0] Initializing manager with initial deletions: Set(), initial ineligible deletions: HashSet()
+2025-02-18 15:45:17,227 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Sending update metadata request
+2025-02-18 15:45:17,236 - INFO  [controller-event-thread:Logging@66] - [ReplicaStateMachine controllerId=0] Initializing replica state
+2025-02-18 15:45:17,237 - INFO  [controller-event-thread:Logging@66] - [ReplicaStateMachine controllerId=0] Triggering online replica state changes
+2025-02-18 15:45:17,242 - INFO  [controller-event-thread:Logging@66] - [ReplicaStateMachine controllerId=0] Triggering offline replica state changes
+2025-02-18 15:45:17,244 - DEBUG [controller-event-thread:Logging@62] - [ReplicaStateMachine controllerId=0] Started replica state machine with initial state -> HashMap()
+2025-02-18 15:45:17,248 - INFO  [controller-event-thread:Logging@66] - [PartitionStateMachine controllerId=0] Initializing partition state
+2025-02-18 15:45:17,252 - INFO  [controller-event-thread:Logging@66] - [PartitionStateMachine controllerId=0] Triggering online partition state changes
+2025-02-18 15:45:17,255 - INFO  [Controller-0-to-broker-0-send-thread:Logging@66] - [RequestSendThread controllerId=0] Controller 0 connected to localhost:35541 (id: 0 rack: null) for sending state change requests
+2025-02-18 15:45:17,260 - DEBUG [controller-event-thread:Logging@62] - [PartitionStateMachine controllerId=0] Started partition state machine with initial state -> HashMap()
+2025-02-18 15:45:17,261 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Ready to serve as the new controller with epoch 1
+2025-02-18 15:45:17,265 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Partitions undergoing preferred replica election: 
+2025-02-18 15:45:17,265 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Partitions that completed preferred replica election: 
+2025-02-18 15:45:17,265 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Skipping preferred replica election for partitions due to topic deletion: 
+2025-02-18 15:45:17,266 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Resuming preferred replica election for partitions: 
+2025-02-18 15:45:17,267 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Starting replica leader election (PREFERRED) for partitions  triggered by ZkTriggered
+2025-02-18 15:45:17,287 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Starting the controller scheduler
+2025-02-18 15:45:17,416 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New topics: [Set(inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover)], deleted topics: [HashSet()], new partition replica assignment [Set(TopicIdReplicaAssignment(inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover,Some(wQ0pGWfnRdeOX9c3T516AQ),Map(inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=))))]
+2025-02-18 15:45:17,416 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New partition creation callback for inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-02-18 15:45:17,655 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New topics: [Set(outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover)], deleted topics: [HashSet()], new partition replica assignment [Set(TopicIdReplicaAssignment(outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover,Some(0gKdEXEGRjiD7v177CG9Zg),Map(outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=))))]
+2025-02-18 15:45:17,655 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New partition creation callback for outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0
+2025-02-18 15:45:17,936 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New topics: [Set(__consumer_offsets)], deleted topics: [HashSet()], new partition replica assignment [Set(TopicIdReplicaAssignment(__consumer_offsets,Some(VLeKn0QUQea2TD6aTQItBQ),HashMap(__consumer_offsets-4 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=), __consumer_offsets-3 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=), __consumer_offsets-2 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=), __consumer_offsets-0 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=), __consumer_offsets-1 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=))))]
+2025-02-18 15:45:17,936 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New partition creation callback for __consumer_offsets-4,__consumer_offsets-3,__consumer_offsets-2,__consumer_offsets-0,__consumer_offsets-1
+2025-02-18 15:45:18,095 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New topics: [Set(appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog)], deleted topics: [HashSet()], new partition replica assignment [Set(TopicIdReplicaAssignment(appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog,Some(aDSYTIekTvm1L82iWjbSuA),Map(appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 -> ReplicaAssignment(replicas=0, addingReplicas=, removingReplicas=))))]
+2025-02-18 15:45:18,095 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] New partition creation callback for appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0
+2025-02-18 15:45:18,798 - INFO  [controller-event-thread:Logging@66] - [Controller id=0] Shutting down broker 0
+2025-02-18 15:45:18,801 - DEBUG [controller-event-thread:Logging@62] - [Controller id=0] All shutting down brokers: 0
+2025-02-18 15:45:18,803 - DEBUG [controller-event-thread:Logging@62] - [Controller id=0] Live brokers: 
+2025-02-18 15:45:18,808 - TRACE [controller-event-thread:Logging@54] - [Controller id=0] All leaders = __consumer_offsets-0 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),appId_EmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-test-store-changelog-0 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),outputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),inputEmitOnChangeIntegrationTestshouldEmitSameRecordAfterFailover-0 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),__consumer_offsets-3 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),__consumer_offsets-4 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),__consumer_offsets-1 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1),__consumer_offsets-2 -> (Leader:0,ISR:0,LeaderEpoch:0,ControllerEpoch:1)
+2025-02-18 15:45:19,576 - INFO  [main:Logging@66] - [ControllerEventThread controllerId=0] Shutting down
+2025-02-18 15:45:19,576 - INFO  [controller-event-thread:Logging@66] - [ControllerEventThread controllerId=0] Stopped
+2025-02-18 15:45:19,576 - INFO  [main:Logging@66] - [ControllerEventThread controllerId=0] Shutdown completed
+2025-02-18 15:45:19,577 - DEBUG [main:Logging@62] - [Controller id=0] Resigning
+2025-02-18 15:45:19,577 - DEBUG [main:Logging@62] - [Controller id=0] Unregister BrokerModifications handler for Set(0)
+2025-02-18 15:45:19,579 - INFO  [main:Logging@66] - [PartitionStateMachine controllerId=0] Stopped partition state machine
+2025-02-18 15:45:19,586 - INFO  [main:Logging@66] - [ReplicaStateMachine controllerId=0] Stopped replica state machine
+2025-02-18 15:45:19,592 - INFO  [main:Logging@66] - [RequestSendThread controllerId=0] Shutting down
+2025-02-18 15:45:19,593 - INFO  [Controller-0-to-broker-0-send-thread:Logging@66] - [RequestSendThread controllerId=0] Stopped
+2025-02-18 15:45:19,593 - INFO  [main:Logging@66] - [RequestSendThread controllerId=0] Shutdown completed
+2025-02-18 15:45:19,597 - INFO  [main:Logging@66] - [Controller id=0] Resigned

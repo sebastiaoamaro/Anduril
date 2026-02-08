@@ -16,6 +16,16 @@
  */
 package org.apache.kafka.streams.integration;
 
+import static org.apache.kafka.common.utils.Utils.mkEntry;
+import static org.apache.kafka.common.utils.Utils.mkMap;
+import static org.apache.kafka.common.utils.Utils.mkObjectProperties;
+import static org.apache.kafka.streams.integration.utils.IntegrationTestUtils.safeUniqueTestName;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Properties;
+import java.util.concurrent.atomic.AtomicBoolean;
 import org.apache.kafka.common.serialization.IntegerDeserializer;
 import org.apache.kafka.common.serialization.IntegerSerializer;
 import org.apache.kafka.common.serialization.Serdes;
@@ -39,20 +49,13 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.junit.rules.TestName;
 
-import java.util.Arrays;
-import java.util.Properties;
-import java.util.concurrent.atomic.AtomicBoolean;
-
-import static org.apache.kafka.common.utils.Utils.mkEntry;
-import static org.apache.kafka.common.utils.Utils.mkMap;
-import static org.apache.kafka.common.utils.Utils.mkObjectProperties;
-import static org.apache.kafka.streams.integration.utils.IntegrationTestUtils.safeUniqueTestName;
-
 @Category(IntegrationTest.class)
 public class EmitOnChangeIntegrationTest {
 
     @ClassRule
-    public static final EmbeddedKafkaCluster CLUSTER = new EmbeddedKafkaCluster(1);
+    public static final EmbeddedKafkaCluster CLUSTER = new EmbeddedKafkaCluster(
+        1
+    );
 
     @Rule
     public TestName testName = new TestName();
@@ -67,9 +70,13 @@ public class EmitOnChangeIntegrationTest {
         appId = "appId_" + testId;
         inputTopic = "input" + testId;
         outputTopic = "output" + testId;
-        IntegrationTestUtils.cleanStateBeforeTest(CLUSTER, inputTopic, outputTopic);
+        IntegrationTestUtils.cleanStateBeforeTest(
+            CLUSTER,
+            inputTopic,
+            outputTopic
+        );
     }
-    
+
     private void dummy_sym() {
         return;
     }
@@ -77,48 +84,71 @@ public class EmitOnChangeIntegrationTest {
     @Test
     public void shouldEmitSameRecordAfterFailover() throws Exception {
         dummy_sym();
-        final Properties properties  = mkObjectProperties(
+        final Properties properties = mkObjectProperties(
             mkMap(
-                mkEntry(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, CLUSTER.bootstrapServers()),
+                mkEntry(
+                    StreamsConfig.BOOTSTRAP_SERVERS_CONFIG,
+                    CLUSTER.bootstrapServers()
+                ),
                 mkEntry(StreamsConfig.APPLICATION_ID_CONFIG, appId),
-                mkEntry(StreamsConfig.STATE_DIR_CONFIG, TestUtils.tempDirectory().getPath()),
+                mkEntry(
+                    StreamsConfig.STATE_DIR_CONFIG,
+                    TestUtils.tempDirectory().getPath()
+                ),
                 mkEntry(StreamsConfig.NUM_STREAM_THREADS_CONFIG, 1),
                 mkEntry(StreamsConfig.CACHE_MAX_BYTES_BUFFERING_CONFIG, 0),
                 mkEntry(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 300000),
-                mkEntry(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.IntegerSerde.class),
-                mkEntry(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.StringSerde.class)
+                mkEntry(
+                    StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG,
+                    Serdes.IntegerSerde.class
+                ),
+                mkEntry(
+                    StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG,
+                    Serdes.StringSerde.class
+                )
             )
         );
 
         final AtomicBoolean shouldThrow = new AtomicBoolean(true);
         final StreamsBuilder builder = new StreamsBuilder();
-        builder.table(inputTopic, Materialized.as("test-store"))
+        final File file1 = new File("syscall_check_1.txt");
+        builder
+            .table(inputTopic, Materialized.as("test-store"))
             .toStream()
             .map((key, value) -> {
-              //  if (shouldThrow.compareAndSet(true, false)) {
-              //      throw new IllegalStateException("Kaboom");
-              //  } else {
-                return new KeyValue<>(key, value);
-              //  }
+                try {
+                    file1.createNewFile();
+                    return new KeyValue<>(key, value);
+                } catch (final IOException e) {
+                    throw new IllegalStateException(e);
+                }
             })
             .to(outputTopic);
 
-        try (final KafkaStreams kafkaStreams = new KafkaStreams(builder.build(), properties)) {
-            kafkaStreams.setUncaughtExceptionHandler(exception -> StreamThreadExceptionResponse.REPLACE_THREAD);
-            StreamsTestUtils.startKafkaStreamsAndWaitForRunningState(kafkaStreams);
+        try (
+            final KafkaStreams kafkaStreams = new KafkaStreams(
+                builder.build(),
+                properties
+            )
+        ) {
+            kafkaStreams.setUncaughtExceptionHandler(exception ->
+                StreamThreadExceptionResponse.REPLACE_THREAD
+            );
+            StreamsTestUtils.startKafkaStreamsAndWaitForRunningState(
+                kafkaStreams
+            );
 
             IntegrationTestUtils.produceKeyValuesSynchronouslyWithTimestamp(
                 inputTopic,
-                Arrays.asList(
-                    new KeyValue<>(1, "A"),
-                    new KeyValue<>(1, "B")
-                ),
+                Arrays.asList(new KeyValue<>(1, "A"), new KeyValue<>(1, "B")),
                 TestUtils.producerConfig(
                     CLUSTER.bootstrapServers(),
                     IntegerSerializer.class,
                     StringSerializer.class,
-                    new Properties()),
-                0L);
+                    new Properties()
+                ),
+                0L
+            );
 
             IntegrationTestUtils.waitUntilFinalKeyValueRecordsReceived(
                 TestUtils.consumerConfig(
@@ -127,10 +157,7 @@ public class EmitOnChangeIntegrationTest {
                     StringDeserializer.class
                 ),
                 outputTopic,
-                Arrays.asList(
-                    new KeyValue<>(1, "A"),
-                    new KeyValue<>(1, "B")
-                )
+                Arrays.asList(new KeyValue<>(1, "A"), new KeyValue<>(1, "B"))
             );
         }
     }

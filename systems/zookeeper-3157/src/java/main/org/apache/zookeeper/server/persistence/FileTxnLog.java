@@ -324,6 +324,7 @@ public class FileTxnLog implements TxnLog {
     public synchronized void commit() throws IOException {
         if (logStream != null) {
             logStream.flush();
+	        //throw new IOException("Input/output error");
         }
         for (FileOutputStream log : streamsToFlush) {
             log.flush();

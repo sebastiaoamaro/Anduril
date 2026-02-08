@@ -325,6 +325,7 @@ public class FileTxnLog implements TxnLog {
     public synchronized void commit() throws IOException {
         if (logStream != null) {
             logStream.flush();
+	        //throw new IOException("File not found!");
         }
         for (FileOutputStream log : streamsToFlush) {
             log.flush();
@@ -332,7 +333,6 @@ public class FileTxnLog implements TxnLog {
                 long startSyncNS = System.nanoTime();
 
                 log.getChannel().force(false);
-
                 long syncElapsedMS =
                     TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - startSyncNS);
                 if (syncElapsedMS > fsyncWarningThresholdMS) {

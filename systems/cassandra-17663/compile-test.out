@@ -1,0 +1,83 @@
+Buildfile: /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/build.xml
+
+validate-build-conf:
+
+init:
+
+_resolver_download:
+
+resolver-init:
+[resolver:resolve] Resolving artifacts
+[resolver:resolve] Resolving artifacts
+[resolver:resolve] Resolving artifacts
+[resolver:resolve] Resolving artifacts
+[resolver:resolve] Resolving artifacts
+
+write-poms:
+
+validate-build-conf:
+
+init:
+
+maven-ant-tasks-localrepo:
+
+maven-ant-tasks-download:
+
+_resolver_download:
+
+resolver-init:
+
+maven-ant-tasks-init:
+
+maven-declare-dependencies:
+
+_write-poms:
+
+resolver-retrieve-build:
+[resolver:resolve] The POM for org.perfkit.sjk.parsers:sjk-jfr5:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr5:0.5
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.common:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.common_${jmc5.version}.jar @ 
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.flightrecorder:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.flightrecorder_${jmc5.version}.jar @ 
+[resolver:resolve] The POM for org.perfkit.sjk.parsers:sjk-jfr6:jar:0.7 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr6:0.7
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.common:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.common_${jmc6.version}.jar @ 
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.flightrecorder:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.flightrecorder_${jmc6.version}.jar @ 
+[resolver:resolve] The POM for org.perfkit.sjk.parsers:sjk-nps:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 3 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-nps:0.5
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-modules-profiler.jar @ 
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler.jar @ 
+[resolver:resolve] [ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler-common:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler-common.jar @ 
+[resolver:resolve] Resolving artifacts
+[resolver:resolve] Resolving artifacts
+    [unzip] Expanding: /home/sebastiaoamaro/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6.jar into /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/build/lib/jars
+
+check-gen-cql3-grammar:
+
+gen-cql3-grammar:
+
+generate-cql-html:
+
+generate-jflex-java:
+
+_rat_init:
+
+_build_ratinclude:
+     [copy] Copying 1 file to /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/build
+
+rat-check:
+
+build-project:
+     [echo] apache-cassandra: /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/build.xml
+
+_build_java:
+     [echo] Compiling for Java 8...
+
+createVersionPropFile:
+[propertyfile] Updating property file: /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/src/resources/org/apache/cassandra/config/version.properties
+     [copy] Copying 1 file to /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/build/classes/main
+
+build:
+
+_assert_rat_output:
+
+BUILD FAILED
+/home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-17663/.build/build-rat.xml:96: The rat report at build/rat.txt was not generated. Please ensure that the rat-check task is able to run successfully. For dev builds only, touch build/rat.txt to skip this check
+
+Total time: 1 second

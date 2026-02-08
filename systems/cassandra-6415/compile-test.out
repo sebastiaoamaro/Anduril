@@ -1,0 +1,33 @@
+Buildfile: /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-6415/build.xml
+
+init:
+
+maven-ant-tasks-localrepo:
+
+maven-ant-tasks-download:
+     [echo] Downloading Maven ANT Tasks...
+      [get] Getting: http://repo2.maven.org/maven2/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar
+      [get] To: /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-6415/build/maven-ant-tasks-2.1.3.jar
+      [get] Error getting http://repo2.maven.org/maven2/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar to /home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-6415/build/maven-ant-tasks-2.1.3.jar
+
+BUILD FAILED
+/home/sebastiaoamaro/phd/torefidevel/rw/Anduril/systems/cassandra-6415/build.xml:268: java.net.UnknownHostException: repo2.maven.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at java.net.Socket.connect(Socket.java:556)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+	at org.apache.tools.ant.taskdefs.Get$GetThread.openConnection(Get.java:790)
+	at org.apache.tools.ant.taskdefs.Get$GetThread.get(Get.java:699)
+	at org.apache.tools.ant.taskdefs.Get$GetThread.run(Get.java:689)
+
+Total time: 0 seconds

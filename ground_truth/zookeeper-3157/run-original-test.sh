@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd /vagrant/rw/Anduril/ground_truth/zookeeper-3157/
+
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 zk_dir="${SCRIPT_DIR}/../../systems/zookeeper-3157"
@@ -19,7 +21,12 @@ testcase="org.apache.zookeeper.server.quorum.FuzzySnapshotRelatedTest"
 
 mkdir -p $SCRIPT_DIR/build
 
-java \
+exec -a "$0" java \
 -cp $classes_dir:$testclasses_dir:$jars \
 -Dbuild.test.dir=$SCRIPT_DIR/build \
-org.junit.runner.JUnitCore $testcase
+org.junit.runner.JUnitCore $testcase > output.log
+
+#strace -f -o strace.log java \
+#-cp $classes_dir:$testclasses_dir:$jars \
+#-Dbuild.test.dir=$SCRIPT_DIR/build \
+#org.junit.runner.JUnitCore $testcase > output.log

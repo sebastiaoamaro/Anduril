@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-workspace=$(cd "$(dirname "${BASH_SOURCE-$0}")"; pwd)
+workspace=$(pwd)
 
 id=$1
 lid=$2

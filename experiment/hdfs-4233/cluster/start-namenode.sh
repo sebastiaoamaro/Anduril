@@ -17,4 +17,5 @@ HADOOP_OPTS="$HADOOP_OPTS $BM_JVM_OPTS" \
 BM_JVM_OPTS="$BM_JVM_OPTS" \
 NN_BM_JVM_OPTS_SET=1 \
 HADOOP_CLASSPATH="$HADOOP_CLASSPATH" \
-$HADOOP_HOME/sbin/hadoop-daemon.sh start namenode
+exec -a "$0" $HADOOP_HOME/sbin/hadoop-daemon.sh start namenode
+#$HADOOP_HOME/sbin/hadoop-daemon.sh start datanode

@@ -1,0 +1,4 @@
+2025-03-05 16:43:47,449 - INFO  [main:Logging@66] - Starting the log cleaner
+2025-03-05 16:43:47,475 - INFO  [kafka-log-cleaner-thread-0:Logging@66] - [kafka-log-cleaner-thread-0]: Starting
+2025-03-05 16:45:00,042 - INFO  [main:Logging@66] - Starting the log cleaner
+2025-03-05 16:45:00,062 - INFO  [kafka-log-cleaner-thread-0:Logging@66] - [kafka-log-cleaner-thread-0]: Starting

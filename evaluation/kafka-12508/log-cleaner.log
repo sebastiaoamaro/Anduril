@@ -1,0 +1,12 @@
+2025-03-26 17:08:53,860 - INFO  [main:Logging@66] - Starting the log cleaner
+2025-03-26 17:08:53,866 - INFO  [kafka-log-cleaner-thread-0:Logging@66] - [kafka-log-cleaner-thread-0]: Starting
+2025-03-26 17:08:57,749 - INFO  [main:Logging@66] - Shutting down the log cleaner.
+2025-03-26 17:08:57,749 - INFO  [main:Logging@66] - [kafka-log-cleaner-thread-0]: Shutting down
+2025-03-26 17:08:57,750 - INFO  [kafka-log-cleaner-thread-0:Logging@66] - [kafka-log-cleaner-thread-0]: Stopped
+2025-03-26 17:08:57,750 - INFO  [main:Logging@66] - [kafka-log-cleaner-thread-0]: Shutdown completed
+2025-03-26 17:19:58,799 - INFO  [main:Logging@66] - Starting the log cleaner
+2025-03-26 17:19:58,803 - INFO  [kafka-log-cleaner-thread-0:Logging@66] - [kafka-log-cleaner-thread-0]: Starting
+2025-03-26 17:20:01,794 - INFO  [main:Logging@66] - Shutting down the log cleaner.
+2025-03-26 17:20:01,794 - INFO  [main:Logging@66] - [kafka-log-cleaner-thread-0]: Shutting down
+2025-03-26 17:20:01,794 - INFO  [kafka-log-cleaner-thread-0:Logging@66] - [kafka-log-cleaner-thread-0]: Stopped
+2025-03-26 17:20:01,794 - INFO  [main:Logging@66] - [kafka-log-cleaner-thread-0]: Shutdown completed

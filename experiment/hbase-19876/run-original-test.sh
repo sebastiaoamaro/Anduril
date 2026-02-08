@@ -23,7 +23,7 @@ for i in `find $JAVA_HOME -name "*.jar"`; do jars="$i:$jars"; done
 
 testcase="org.apache.hadoop.hbase.client.TestMalformedCellFromClient"
 
-java \
+strace -f -o strace.log java \
 -Dlog4j.configuration=file:$SCRIPT_DIR/log4j.properties \
 -cp $classes_dir:$testclasses_dir:$jars \
 org.junit.runner.JUnitCore $testcase

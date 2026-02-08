@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+cd /vagrant/rw/Anduril/experiment/kafka-12508 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 case_name=kafka-12508
@@ -55,7 +55,12 @@ for i in `find $JAVA_HOME -name "*.jar"`; do jars="$i:$jars"; done
 
 testmethod="org.apache.kafka.streams.integration.EmitOnChangeIntegrationTest#shouldEmitSameRecordAfterFailover"
 
-java \
+exec -a "$0"  java \
 -jar $SCRIPT_DIR/junit-platform-console-standalone-1.7.0.jar \
 -cp "$ka_dir/core/build/dependant-libs-2.13.5/slf4j-log4j12-1.7.30.jar":$classes_dir:$testclasses_dir:$jars \
---select-method $testmethod
+--select-method $testmethod > output.log
+
+#strace -f -y -o strace.log java \
+#-jar $SCRIPT_DIR/junit-platform-console-standalone-1.7.0.jar \
+#-cp "$ka_dir/core/build/dependant-libs-2.13.5/slf4j-log4j12-1.7.30.jar":$classes_dir:$testclasses_dir:$jars \
+#--select-method $testmethod

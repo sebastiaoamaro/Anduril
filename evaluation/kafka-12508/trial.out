@@ -1,0 +1,18 @@
+
+Flaky Agent Init Start Time:  2025-03-26 17:26:33.235
+Exception in thread "main" java.lang.RuntimeException: java.nio.file.NoSuchFileException: time.bin
+	at runtime.time.TimePriorityTable.load(TimePriorityTable.java:99)
+	at runtime.LocalInjectionManager.<init>(LocalInjectionManager.java:95)
+	at runtime.TraceAgent.main(TraceAgent.java:269)
+Caused by: java.nio.file.NoSuchFileException: time.bin
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
+	at java.nio.file.Files.newInputStream(Files.java:152)
+	at runtime.time.TimePriorityTable.load(TimePriorityTable.java:96)
+	... 2 more
+2025-03-26 17:26:33,244 - INFO  [Thread-0:TraceAgent@139] - 0xfff flaky agent workload time used: 0 / 0 ns
