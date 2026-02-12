@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd /vagrant/auxiliary_scripts/ && change_java.sh 17
+cd /vagrant/auxiliary_scripts/ && ./change_java.sh 17
 cd /vagrant/rw/Anduril/experiment/hdfs-16332
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
