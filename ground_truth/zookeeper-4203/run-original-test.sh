@@ -25,7 +25,7 @@ done
 
 exec -a "$0" java \
 -cp $btm_dir:$classes_dir:$testclasses_dir:$jars \
-org.junit.runner.JUnitCore $testcase > output.log
+org.junit.runner.JUnitCore $testcase  > output.log 2>&1
 #java \
 #-cp $btm_dir:$classes_dir:$testclasses_dir:$jars \
 #org.junit.runner.JUnitCore $testcase
