@@ -2,7 +2,11 @@
 set -euo pipefail
 
 sudo apt-get update -y
-sudo apt-get install -y git maven ant vim openjdk-8-jdk openjdk-17-jdk
+sudo apt-get install -y \
+  git maven ant vim \
+  openjdk-8-jdk openjdk-17-jdk \
+  unzip autoconf libtool g++ make \
+  wget ca-certificates
 
 JAVA_HOME_8=/usr/lib/jvm/java-8-openjdk-amd64
 JAVA_HOME_17=/usr/lib/jvm/java-17-openjdk-amd64
@@ -34,19 +38,51 @@ sudo update-alternatives --set javac "$(sudo update-alternatives --list javac | 
   echo "use_java17() { use_java 17; }"
 } >> ~/.bashrc
 
-# Build protobuf dependency
-sudo apt-get install -y unzip autoconf libtool g++ make
+# Build protobuf dependency (protobuf 2.5.0)
 mkdir -p "$HOME/anduril-dep"
-DEP=$HOME/anduril-dep
+DEP="$HOME/anduril-dep"
 cd "$DEP"
+
 wget -q https://github.com/OrderLab/Anduril/raw/main/systems/protobuf-2.5.0.zip
 unzip -o protobuf-2.5.0.zip
 cd protobuf-2.5.0/
 autoreconf -f -i -Wall,no-obsolete
 ./configure --prefix="$DEP/protobuf-build"
-make -j4
+make -j"$(nproc || echo 4)"
 make install
 
-export PATH="$DEP/protobuf-build/bin:$PATH"
-echo "export PATH=$DEP/protobuf-build/bin:\$PATH" >> ~/.bashrc
+# Make protoc available in BOTH interactive and non-interactive shells.
+# - ~/.bashrc is NOT sourced by `vagrant ssh -c ...` (non-interactive).
+# - ~/.profile is sourced for login shells, and we can also use /etc/profile.d.
+PROTOC_BIN_DIR="$DEP/protobuf-build/bin"
+
+# 1) Per-user: login shells
+if ! grep -qs "$PROTOC_BIN_DIR" "$HOME/.profile" 2>/dev/null; then
+  {
+    echo ""
+    echo "# Anduril protobuf (installed by rw/Anduril/install.sh)"
+    echo "export PATH=\"$PROTOC_BIN_DIR:\$PATH\""
+  } >> "$HOME/.profile"
+fi
+
+# 2) Per-user: interactive shells (kept for convenience)
+if ! grep -qs "$PROTOC_BIN_DIR" "$HOME/.bashrc" 2>/dev/null; then
+  {
+    echo ""
+    echo "# Anduril protobuf (installed by rw/Anduril/install.sh)"
+    echo "export PATH=\"$PROTOC_BIN_DIR:\$PATH\""
+  } >> "$HOME/.bashrc"
+fi
+
+# 3) System-wide (covers many non-interactive invocations depending on shell/tooling)
+sudo tee /etc/profile.d/anduril-protoc.sh >/dev/null <<EOF
+# Anduril protobuf (installed by rw/Anduril/install.sh)
+export PATH="$PROTOC_BIN_DIR:\$PATH"
+EOF
+sudo chmod 644 /etc/profile.d/anduril-protoc.sh
+
+# Verify both current process and a login shell see protoc
+export PATH="$PROTOC_BIN_DIR:$PATH"
+command -v protoc
 protoc --version
+bash -lc 'command -v protoc && protoc --version'
